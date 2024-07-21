@@ -1,0 +1,17 @@
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.exe
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.deps.json
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.runtimeconfig.json
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.dll
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.pdb
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.Form1.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.Properties.Resources.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.csproj.GenerateResource.cache
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.AssemblyInfoInputs.cache
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.AssemblyInfo.cs
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.csproj.CoreCompileInputs.cache
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.dll
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\refint\SistemaLab.dll
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.pdb
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.genruntimeconfig.cache
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\ref\SistemaLab.dll
