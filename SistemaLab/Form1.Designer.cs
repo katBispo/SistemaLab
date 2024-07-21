@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            panel4 = new Panel();
             label5 = new Label();
             label4 = new Label();
             label3 = new Label();
@@ -37,23 +38,23 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
+            button1 = new Button();
+            panel5 = new Panel();
+            textBox2 = new TextBox();
+            pictureBox3 = new PictureBox();
+            panel3 = new Panel();
+            textBox1 = new TextBox();
+            pictureBox2 = new PictureBox();
             label6 = new Label();
             closebtnLogin = new Label();
-            panel3 = new Panel();
-            panel4 = new Panel();
-            panel5 = new Panel();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            button2 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
-            panel3.SuspendLayout();
             panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -71,6 +72,14 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(300, 530);
             panel1.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.White;
+            panel4.Location = new Point(300, 235);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(450, 45);
+            panel4.TabIndex = 7;
             // 
             // label5
             // 
@@ -138,6 +147,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(button2);
             panel2.Controls.Add(button1);
             panel2.Controls.Add(panel5);
             panel2.Controls.Add(panel3);
@@ -149,16 +159,86 @@
             panel2.Size = new Size(450, 530);
             panel2.TabIndex = 1;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.DarkGreen;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(168, 305);
+            button1.Name = "button1";
+            button1.Size = new Size(113, 35);
+            button1.TabIndex = 8;
+            button1.Text = "ENTRAR";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.White;
+            panel5.Controls.Add(textBox2);
+            panel5.Controls.Add(pictureBox3);
+            panel5.Location = new Point(0, 232);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(450, 45);
+            panel5.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            textBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.ForeColor = Color.DarkGreen;
+            textBox2.Location = new Point(55, 11);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(370, 27);
+            textBox2.TabIndex = 10;
+            textBox2.UseSystemPasswordChar = true;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.cadeado_seguro__1_;
+            pictureBox3.Location = new Point(15, 11);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(24, 24);
+            pictureBox3.TabIndex = 9;
+            pictureBox3.TabStop = false;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.Controls.Add(textBox1);
+            panel3.Controls.Add(pictureBox2);
+            panel3.Location = new Point(0, 184);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(450, 45);
+            panel3.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.ForeColor = Color.DarkGreen;
+            textBox1.Location = new Point(55, 10);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(370, 27);
+            textBox1.TabIndex = 9;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.sombra_de_usuario_masculino__1_;
+            pictureBox2.Location = new Point(15, 11);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(24, 24);
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
+            // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.DarkGreen;
-            label6.Location = new Point(75, 64);
+            label6.Location = new Point(200, 97);
             label6.Name = "label6";
-            label6.Size = new Size(268, 23);
+            label6.Size = new Size(69, 23);
             label6.TabIndex = 5;
-            label6.Text = "Sistema de Gerenciamento ";
+            label6.Text = "LOGIN";
             // 
             // closebtnLogin
             // 
@@ -174,79 +254,19 @@
             closebtnLogin.Text = "X";
             closebtnLogin.Click += closebtnLogin_Click;
             // 
-            // panel3
+            // button2
             // 
-            panel3.BackColor = Color.White;
-            panel3.Controls.Add(textBox1);
-            panel3.Controls.Add(pictureBox2);
-            panel3.Location = new Point(0, 184);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(450, 45);
-            panel3.TabIndex = 6;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.White;
-            panel4.Location = new Point(300, 235);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(450, 45);
-            panel4.TabIndex = 7;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.White;
-            panel5.Controls.Add(textBox2);
-            panel5.Controls.Add(pictureBox3);
-            panel5.Location = new Point(0, 232);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(450, 45);
-            panel5.TabIndex = 7;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.sombra_de_usuario_masculino__1_;
-            pictureBox2.Location = new Point(15, 11);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(24, 24);
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.cadeado_seguro__1_;
-            pictureBox3.Location = new Point(15, 11);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(24, 24);
-            pictureBox3.TabIndex = 9;
-            pictureBox3.TabStop = false;
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = Color.DarkGreen;
-            textBox1.Location = new Point(55, 10);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(370, 27);
-            textBox1.TabIndex = 9;
-            // 
-            // textBox2
-            // 
-            textBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = Color.DarkGreen;
-            textBox2.Location = new Point(55, 11);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(370, 27);
-            textBox2.TabIndex = 10;
-            textBox2.UseSystemPasswordChar = true;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(200, 302);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 8;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            button2.BackColor = SystemColors.Control;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Century Gothic", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.DarkGreen;
+            button2.Location = new Point(168, 385);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 57);
+            button2.TabIndex = 9;
+            button2.Text = "SOLICITAR ACESSO";
+            button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -265,12 +285,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -294,5 +314,6 @@
         private TextBox textBox1;
         private Button button1;
         private TextBox textBox2;
+        private Button button2;
     }
 }

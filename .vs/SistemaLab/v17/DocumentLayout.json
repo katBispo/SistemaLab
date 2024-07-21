@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|C:\\Users\\kateriny\\source\\repos\\SistemaLab\\sistemalab\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
@@ -37,8 +37,7 @@
               "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Properties\\Resources.resx",
               "RelativeToolTip": "SistemaLab\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-21T16:24:28.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T16:24:28.941Z"
             },
             {
               "$type": "Document",
