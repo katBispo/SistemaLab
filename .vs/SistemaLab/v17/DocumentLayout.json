@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|C:\\Users\\kateriny\\source\\repos\\SistemaLab\\sistemalab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "SistemaLab\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Properties\\Resources.resx",
+              "RelativeToolTip": "SistemaLab\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-21T16:24:28.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Form1.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Form1.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Form1.cs",
+              "RelativeToolTip": "SistemaLab\\Form1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAMwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:10:09.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Form1.Designer.cs",

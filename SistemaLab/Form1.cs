@@ -6,5 +6,10 @@ namespace SistemaLab
         {
             InitializeComponent();
         }
+
+        private void closebtnLogin_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

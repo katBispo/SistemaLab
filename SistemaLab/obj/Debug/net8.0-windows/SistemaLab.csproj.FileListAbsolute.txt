@@ -15,3 +15,4 @@ C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\re
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.pdb
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.genruntimeconfig.cache
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\ref\SistemaLab.dll
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.sourcelink.json
