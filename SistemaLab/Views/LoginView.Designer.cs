@@ -1,6 +1,6 @@
 ﻿namespace SistemaLab
 {
-    partial class Form1
+    partial class LoginView
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginView));
             panel1 = new Panel();
             panel4 = new Panel();
             label5 = new Label();
