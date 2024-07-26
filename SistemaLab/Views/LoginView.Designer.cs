@@ -38,6 +38,7 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
+            button2 = new Button();
             button1 = new Button();
             panel5 = new Panel();
             textBox2 = new TextBox();
@@ -47,7 +48,7 @@
             pictureBox2 = new PictureBox();
             label6 = new Label();
             closebtnLogin = new Label();
-            button2 = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -159,6 +160,20 @@
             panel2.Size = new Size(450, 530);
             panel2.TabIndex = 1;
             // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.Control;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Century Gothic", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.DarkGreen;
+            button2.Location = new Point(168, 385);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 57);
+            button2.TabIndex = 9;
+            button2.Text = "SOLICITAR ACESSO";
+            button2.UseVisualStyleBackColor = false;
+            // 
             // button1
             // 
             button1.BackColor = Color.DarkGreen;
@@ -171,6 +186,7 @@
             button1.TabIndex = 8;
             button1.Text = "ENTRAR";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // panel5
             // 
@@ -254,21 +270,7 @@
             closebtnLogin.Text = "X";
             closebtnLogin.Click += closebtnLogin_Click;
             // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.Control;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Century Gothic", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.DarkGreen;
-            button2.Location = new Point(168, 385);
-            button2.Name = "button2";
-            button2.Size = new Size(116, 57);
-            button2.TabIndex = 9;
-            button2.Text = "SOLICITAR ACESSO";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // Form1
+            // LoginView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -277,7 +279,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
+            Name = "LoginView";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);
@@ -315,5 +317,6 @@
         private Button button1;
         private TextBox textBox2;
         private Button button2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

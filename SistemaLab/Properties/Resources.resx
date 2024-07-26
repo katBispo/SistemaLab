@@ -118,14 +118,50 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="adicionar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adicionar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adicionar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adicionar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cadeado_seguro__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadeado-seguro (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frasco60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frasco60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="documento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\documento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="documento__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\documento (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editar__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frasco__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frasco (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frasco__1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frasco (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frasco__1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frasco (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frasco__1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frasco (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_aberto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-aberto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_aberto__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-aberto (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_aberto__2___2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-aberto (2) (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registro__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registro (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sombra_de_usuario_masculino__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sombra-de-usuario-masculino (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

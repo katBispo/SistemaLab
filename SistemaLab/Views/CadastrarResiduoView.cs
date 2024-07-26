@@ -16,5 +16,12 @@ namespace SistemaLab
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string mensagem = "Resíduo Cadastrado com sucesso";
+            string titulo = "Atenção";
+            MessageBox.Show(mensagem, titulo);
+        }
     }
 }

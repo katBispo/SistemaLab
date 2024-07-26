@@ -11,5 +11,13 @@ namespace SistemaLab
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MenuView menu = new MenuView();
+            menu.FormClosed += (s, args) => this.Close();
+            menu.Show(this);
+        }
     }
 }

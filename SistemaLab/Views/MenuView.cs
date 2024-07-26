@@ -15,6 +15,10 @@ namespace SistemaLab
         public MenuView()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.Size = new Size(800, 600); // Defina o tamanho desejado aqui (800x600, por exemplo)
+
+
         }
 
         private void cadastrarReagentesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -51,8 +55,13 @@ namespace SistemaLab
 
         private void relatórioDeResíduosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RelatorioResiduoView relatorioResiduo =new RelatorioResiduoView();
+            RelatorioResiduoView relatorioResiduo = new RelatorioResiduoView();
             relatorioResiduo.Show();
+        }
+
+        private void MenuView_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

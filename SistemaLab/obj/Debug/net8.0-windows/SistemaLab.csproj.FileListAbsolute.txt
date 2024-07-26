@@ -3,7 +3,6 @@ C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\Si
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.runtimeconfig.json
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.dll
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\SistemaLab.pdb
-C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.Form1.resources
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.Properties.Resources.resources
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.csproj.GenerateResource.cache
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,16 @@ C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\Si
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.genruntimeconfig.cache
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\ref\SistemaLab.dll
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.sourcelink.json
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.CadastrarReagenteView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.CadastrarResiduoView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.ListarReagenteView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.ListarResiduoView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.LoginView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.MenuView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.RelatorioReagenteView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.RelatorioResiduoView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\bin\Debug\net8.0-windows\MaterialSkin.dll
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.csproj.AssemblyReference.cache
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.csproj.Up2Date
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.CadastrarEquipamentoView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.ListarEquipamentosView.resources
