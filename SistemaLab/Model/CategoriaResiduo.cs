@@ -13,14 +13,15 @@ namespace SistemaLab.Model
         public int idCategoria { get; private set; }
         public string categoria { get; private set; }
 
+        public List<Residuo> residuos { get; private set; }
+
         public CategoriaResiduo(int idCategoria, string categoria)
         {
-            this.IdCategoria = idCategoria;
-            this.Categoria = categoria;
+            this.idCategoria = idCategoria;
+            this.categoria = categoria;
         }
         public CategoriaResiduo() { }
 
-        public int IdCategoria { get => idCategoria; set => idCategoria = value; }
-        public string Categoria { get => categoria; set => categoria = value; }
+
     }
 }

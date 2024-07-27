@@ -10,18 +10,16 @@ namespace SistemaLab.Model
     public class CategoriaReagente
     {
         [Key]
-        public int id;
+        public int id {  get; set; }
         public string nomeCategoria { get; private set; }
 
         public CategoriaReagente(int id, string nomeCategoria)
         {
-            this.Id = id;
-            this.NomeCategoria = nomeCategoria;
+            this.id = id;
+            this.nomeCategoria = nomeCategoria;
         }
         public CategoriaReagente() { }
 
-        public int Id { get => id; set => id = value; }
-        public string NomeCategoria { get => nomeCategoria; set => nomeCategoria = value; }
 
         public List<Reagente> reagentes { get; set; }
 

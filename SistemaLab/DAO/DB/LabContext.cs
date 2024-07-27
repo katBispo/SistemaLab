@@ -24,33 +24,31 @@ namespace SistemaLab.DAO.DB
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite("Data Source=lab.db");
+                optionsBuilder.UseSqlite("Data Source=labQuimica.db");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>()
-                    .HasDiscriminator<string>("UserType")
-                    .HasValue<Usuario>("Usuario")
-                    .HasValue<Aluno>("Aluno")
-                    .HasValue<Tecnico>("Tecnico");
-
-
-
+                .HasDiscriminator<string>("UserType")
+                .HasValue<Usuario>("Usuario")
+                .HasValue<Aluno>("Aluno")
+                .HasValue<Tecnico>("Tecnico");
 
             modelBuilder.Entity<ReservaEquipamento>()
-                .HasOne(r => r.Reservista)
+                .HasOne(r => r.reservista)
                 .WithMany(a => a.Reservas)
                 .HasForeignKey(r => r.AlunoId);
 
             modelBuilder.Entity<ReservaEquipamento>()
-                .HasOne(r => r.Equipamento)
+                .HasOne(r => r.equipamento)
                 .WithMany()
                 .HasForeignKey(r => r.EquipamentoId);
 
-            modelBuilder.Entity<Equipamento>().HasMany(e => e.reservaEquipamentos).WithOne(r => r.Equipamento);
-
+            modelBuilder.Entity<Equipamento>()
+                .HasMany(e => e.reservaEquipamentos)
+                .WithOne(r => r.equipamento);
         }
-    }
+  }
 }

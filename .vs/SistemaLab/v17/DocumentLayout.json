@@ -3,84 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\migrations\\labcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\migrations\\labcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142826_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaLab\\Migrations\\20240727142826_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\migrations\\20240727142606_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\migrations\\20240727142606_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\migrations\\20240727142312_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\migrations\\20240727142312_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727141839_versao3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaLab\\Migrations\\20240727141839_versao3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727140916_Versao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaLab\\Migrations\\20240727140916_Versao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\reservaequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\reservaequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\categoriaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\categoriaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\reagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\reagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\categoriaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\categoriaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727153523_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaLab\\Migrations\\20240727153523_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\categoriareagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\categoriareagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\sistemalab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\sistemalab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\enums\\statusresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\enums\\statusresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\enums\\statusequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\enums\\statusequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\reservaequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\reservaequipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\reagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\reagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,266 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240727142826_v4.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142826_v4.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\20240727142826_v4.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142826_v4.cs",
-              "RelativeToolTip": "SistemaLab\\Migrations\\20240727142826_v4.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:28:26.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240727142606_v1.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142606_v1.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\20240727142606_v1.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142606_v1.cs",
-              "RelativeToolTip": "SistemaLab\\Migrations\\20240727142606_v1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:26:07.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240727142312_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142312_InitialCreate.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\20240727142312_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727142312_InitialCreate.cs",
-              "RelativeToolTip": "SistemaLab\\Migrations\\20240727142312_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:23:12.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240727141839_versao3.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727141839_versao3.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\20240727141839_versao3.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727141839_versao3.cs",
-              "RelativeToolTip": "SistemaLab\\Migrations\\20240727141839_versao3.cs",
+              "DocumentIndex": 2,
+              "Title": "20240727153523_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727153523_v1.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\20240727153523_v1.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727153523_v1.cs",
+              "RelativeToolTip": "SistemaLab\\Migrations\\20240727153523_v1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:18:39.53Z",
+              "WhenOpened": "2024-07-27T15:35:23.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20240727140916_Versao2.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727140916_Versao2.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\20240727140916_Versao2.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\20240727140916_Versao2.cs",
-              "RelativeToolTip": "SistemaLab\\Migrations\\20240727140916_Versao2.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:09:16.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LabContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\LabContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Migrations\\LabContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Migrations\\LabContextModelSnapshot.cs",
-              "RelativeToolTip": "SistemaLab\\Migrations\\LabContextModelSnapshot.cs",
-              "ViewState": "AQIAADUBAAAAAAAAAAAgwEwBAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T13:25:28.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReservaEquipamento.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\ReservaEquipamento.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\ReservaEquipamento.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\ReservaEquipamento.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\ReservaEquipamento.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T13:07:21.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T23:32:17.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LabContext.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\LabContext.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DB\\LabContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwBoAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T23:05:04.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SistemaLab",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\SistemaLab.csproj",
-              "RelativeDocumentMoniker": "SistemaLab\\SistemaLab.csproj",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\SistemaLab.csproj",
-              "RelativeToolTip": "SistemaLab\\SistemaLab.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-26T23:05:04.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "StatusResiduo.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\StatusResiduo.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\enums\\StatusResiduo.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\StatusResiduo.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\enums\\StatusResiduo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T22:14:51.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StatusEquipamento.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\StatusEquipamento.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\enums\\StatusEquipamento.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\StatusEquipamento.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\enums\\StatusEquipamento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T22:14:46.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoriaResiduo.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaResiduo.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\CategoriaResiduo.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaResiduo.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\CategoriaResiduo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T22:14:39.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Aluno.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\Aluno.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Aluno.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\Aluno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T22:14:05.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Equipamento.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\Equipamento.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\Equipamento.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:57:39.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Usuario.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\Usuario.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Usuario.cs",
               "RelativeToolTip": "SistemaLab\\Model\\Usuario.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:57:19.249Z",
+              "WhenOpened": "2024-07-27T15:32:42.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Tecnico.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Tecnico.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\Tecnico.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Tecnico.cs",
               "RelativeToolTip": "SistemaLab\\Model\\Tecnico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:57:14.523Z",
+              "WhenOpened": "2024-07-27T15:32:37.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "Residuo.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Residuo.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\Residuo.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Residuo.cs",
               "RelativeToolTip": "SistemaLab\\Model\\Residuo.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAgAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:56:52.801Z",
+              "WhenOpened": "2024-07-27T15:32:23.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
+              "Title": "ReservaEquipamento.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\ReservaEquipamento.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\ReservaEquipamento.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\ReservaEquipamento.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\ReservaEquipamento.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:30:34.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Reagente.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Reagente.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\Reagente.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Reagente.cs",
               "RelativeToolTip": "SistemaLab\\Model\\Reagente.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwB4AAAAdAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:56:34.394Z",
+              "WhenOpened": "2024-07-27T15:30:19.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
+              "Title": "Equipamento.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\Equipamento.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\Equipamento.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:30:02.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriaResiduo.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaResiduo.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\CategoriaResiduo.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaResiduo.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\CategoriaResiduo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:29:49.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoriaReagente.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaReagente.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\CategoriaReagente.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaReagente.cs",
               "RelativeToolTip": "SistemaLab\\Model\\CategoriaReagente.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBQAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:56:10.441Z",
+              "WhenOpened": "2024-07-27T15:29:28.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Aluno.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Aluno.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\Aluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:28:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:23:48.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LabContext.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\LabContext.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DB\\LabContext.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:23:47.392Z",
               "EditorCaption": ""
             }
           ]

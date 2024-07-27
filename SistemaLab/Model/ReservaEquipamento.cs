@@ -21,16 +21,13 @@ namespace SistemaLab.Model
 
         public ReservaEquipamento(int id, DateTime data, Aluno reservista, Equipamento equipamento)
         {
-            this.Id = id;
-            this.Data = data;
-            this.Reservista = reservista;
-            this.Equipamento = equipamento;
+            this.id = id;
+            this.data = data;
+            this.reservista = reservista;
+            this.equipamento = equipamento;
         }
         public ReservaEquipamento() { }
 
-        public int Id { get => id; set => id = value; }
-        public DateTime Data { get => data; set => data = value; }
-        public Aluno Reservista { get => reservista; set => reservista = value; }
-        public Equipamento Equipamento { get => equipamento; set => equipamento = value; }
+  
     }
 }

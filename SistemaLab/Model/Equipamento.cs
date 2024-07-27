@@ -18,18 +18,15 @@ namespace SistemaLab.Model
 
         public Equipamento(int id, string nomeEquipamento, StatusEquipamento statusEquipamento)
         {
-            this.Id = id;
-            this.NomeEquipamento = nomeEquipamento;
-            this.StatusEquipamento = statusEquipamento;
+            this.id = id;
+            this.nomeEquipamento = nomeEquipamento;
+            this.statusEquipamento = statusEquipamento;
         }
         public Equipamento()
         {
 
         }
 
-        public int Id { get => id; set => id = value; }
-        public string NomeEquipamento { get => nomeEquipamento; set => nomeEquipamento = value; }
-        public List<ReservaEquipamento> ReservaEquipamentos { get => reservaEquipamentos; set => reservaEquipamentos = value; }
-        internal StatusEquipamento StatusEquipamento { get => statusEquipamento; set => statusEquipamento = value; }
+
     }
 }

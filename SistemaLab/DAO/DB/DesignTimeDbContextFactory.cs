@@ -11,7 +11,7 @@ namespace SistemaLab.DAO.DB
             Batteries.Init(); 
 
             var optionsBuilder = new DbContextOptionsBuilder<LabContext>();
-            optionsBuilder.UseSqlite("Data Source=lab.db");
+            optionsBuilder.UseSqlite("Data Source=labQuimica.db");
 
             return new LabContext(optionsBuilder.Options);
         }

@@ -16,18 +16,17 @@ namespace SistemaLab.Model
         public DateTime dataGeracao { get;  set; }
         public StatusResiduo statusResiduo { get;  set; }
 
+        public CategoriaResiduo categoriaResiduo { get; set; }
+
         public Residuo(int id, string nome, DateTime dataGeracao, StatusResiduo statusResiduo)
         {
-            this.Id = id;
-            this.Nome = nome;
-            this.DataGeracao = dataGeracao;
-            this.StatusResiduo = statusResiduo;
+            this.id = id;
+            this.nome = nome;
+            this.dataGeracao = dataGeracao;
+            this.statusResiduo = statusResiduo;
         }
         public Residuo() { }    
 
-        public int Id { get => id; set => id = value; }
-        public string Nome { get => nome; set => nome = value; }
-        public DateTime DataGeracao { get => dataGeracao; set => dataGeracao = value; }
-        internal StatusResiduo StatusResiduo { get => statusResiduo; set => statusResiduo = value; }
+
     }
 }

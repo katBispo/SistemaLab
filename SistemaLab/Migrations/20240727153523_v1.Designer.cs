@@ -11,7 +11,7 @@ using SistemaLab.DAO.DB;
 namespace SistemaLab.Migrations
 {
     [DbContext(typeof(LabContext))]
-    [Migration("20240727142606_v1")]
+    [Migration("20240727153523_v1")]
     partial class v1
     {
         /// <inheritdoc />
@@ -22,19 +22,15 @@ namespace SistemaLab.Migrations
 
             modelBuilder.Entity("SistemaLab.Model.CategoriaReagente", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("NomeCategoria")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<string>("nomeCategoria")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.HasKey("id");
 
                     b.ToTable("CategoriaReagentes");
                 });
@@ -43,13 +39,6 @@ namespace SistemaLab.Migrations
                 {
                     b.Property<int>("idCategoria")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Categoria")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("IdCategoria")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("categoria")
@@ -66,13 +55,6 @@ namespace SistemaLab.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("NomeEquipamento")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<string>("nomeEquipamento")
                         .IsRequired()
@@ -92,29 +74,8 @@ namespace SistemaLab.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CategoriaReagenteId")
+                    b.Property<int?>("CategoriaReagenteid")
                         .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("DataVencimento")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Fabricante")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Lote")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("dataVencimento")
                         .HasColumnType("TEXT");
@@ -133,7 +94,7 @@ namespace SistemaLab.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("CategoriaReagenteId");
+                    b.HasIndex("CategoriaReagenteid");
 
                     b.ToTable("Reagentes");
                 });
@@ -147,33 +108,17 @@ namespace SistemaLab.Migrations
                     b.Property<int>("AlunoId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("TEXT");
-
                     b.Property<int>("EquipamentoId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Id")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("data")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("equipamentoid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("reservistaId")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("id");
 
                     b.HasIndex("AlunoId");
 
                     b.HasIndex("EquipamentoId");
-
-                    b.HasIndex("equipamentoid");
-
-                    b.HasIndex("reservistaId");
 
                     b.ToTable("ReservaEquipamentos");
                 });
@@ -183,16 +128,6 @@ namespace SistemaLab.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("DataGeracao")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("dataGeracao")
                         .HasColumnType("TEXT");
@@ -263,10 +198,6 @@ namespace SistemaLab.Migrations
                 {
                     b.HasBaseType("SistemaLab.Model.Usuario");
 
-                    b.Property<string>("RegistroProfissional")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("registroProfissional")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -276,44 +207,24 @@ namespace SistemaLab.Migrations
 
             modelBuilder.Entity("SistemaLab.Model.Reagente", b =>
                 {
-                    b.HasOne("SistemaLab.Model.CategoriaReagente", "CategoriaReagente")
+                    b.HasOne("SistemaLab.Model.CategoriaReagente", null)
                         .WithMany("reagentes")
-                        .HasForeignKey("CategoriaReagenteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("CategoriaReagente");
+                        .HasForeignKey("CategoriaReagenteid");
                 });
 
             modelBuilder.Entity("SistemaLab.Model.ReservaEquipamento", b =>
                 {
-                    b.HasOne("SistemaLab.Model.Aluno", "Reservista")
+                    b.HasOne("SistemaLab.Model.Aluno", "reservista")
                         .WithMany("Reservas")
                         .HasForeignKey("AlunoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SistemaLab.Model.Equipamento", "Equipamento")
+                    b.HasOne("SistemaLab.Model.Equipamento", "equipamento")
                         .WithMany("reservaEquipamentos")
                         .HasForeignKey("EquipamentoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("SistemaLab.Model.Equipamento", "equipamento")
-                        .WithMany("ReservaEquipamentos")
-                        .HasForeignKey("equipamentoid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SistemaLab.Model.Aluno", "reservista")
-                        .WithMany()
-                        .HasForeignKey("reservistaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Equipamento");
-
-                    b.Navigation("Reservista");
 
                     b.Navigation("equipamento");
 
@@ -327,8 +238,6 @@ namespace SistemaLab.Migrations
 
             modelBuilder.Entity("SistemaLab.Model.Equipamento", b =>
                 {
-                    b.Navigation("ReservaEquipamentos");
-
                     b.Navigation("reservaEquipamentos");
                 });
 

@@ -21,21 +21,15 @@ namespace SistemaLab.Model
 
         public Reagente(int id, string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote)
         {
-            this.Id = id;
-            this.Nome = nome;
-            this.DataVencimento = dataVencimento;
-            this.DataCadastro = dataCadastro;
-            this.Fabricante = fabricante;
-            this.Lote = lote;
+            this.id = id;
+            this.nome = nome;
+            this.dataVencimento = dataVencimento;
+            this.dataCadastro = dataCadastro;
+            this.fabricante = fabricante;
+            this.lote = lote;
         }
         public Reagente() { }
 
-        public int Id { get => id; set => id = value; }
-        public string Nome { get => nome; set => nome = value; }
-        public DateTime DataVencimento { get => dataVencimento; set => dataVencimento = value; }
-        public DateTime DataCadastro { get => dataCadastro; set => dataCadastro = value; }
-        public string Fabricante { get => fabricante; set => fabricante = value; }
-        public string Lote { get => lote; set => lote = value; }
-        public CategoriaReagente CategoriaReagente { get => categoriaReagente; set => categoriaReagente = value; }
+
     }
 }

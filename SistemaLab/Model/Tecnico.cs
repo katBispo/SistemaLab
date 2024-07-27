@@ -16,6 +16,5 @@ namespace SistemaLab.Model
         }
         public Tecnico() { }
 
-        public string RegistroProfissional { get => registroProfissional; set => registroProfissional = value; }
     }
 }
