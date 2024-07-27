@@ -13,6 +13,7 @@ namespace SistemaLab.Model
         public string Telefone { get; private set; }
         public string Email { get; private set; }
 
+
         public Usuario(int id, string nome, string cpf, DateTime dataNascimento, string telefone, string email)
         {
             this.Id = id;

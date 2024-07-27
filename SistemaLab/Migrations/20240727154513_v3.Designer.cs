@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaLab.DAO.DB;
 
@@ -10,9 +11,11 @@ using SistemaLab.DAO.DB;
 namespace SistemaLab.Migrations
 {
     [DbContext(typeof(LabContext))]
-    partial class LabContextModelSnapshot : ModelSnapshot
+    [Migration("20240727154513_v3")]
+    partial class v3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
@@ -171,11 +174,18 @@ namespace SistemaLab.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserType")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios", (string)null);
+                    b.ToTable("Usuarios");
 
-                    b.UseTptMappingStrategy();
+                    b.HasDiscriminator<string>("UserType").HasValue("Usuario");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("SistemaLab.Model.Aluno", b =>
@@ -186,7 +196,7 @@ namespace SistemaLab.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.ToTable("Alunos", (string)null);
+                    b.HasDiscriminator().HasValue("Aluno");
                 });
 
             modelBuilder.Entity("SistemaLab.Model.Tecnico", b =>
@@ -197,7 +207,7 @@ namespace SistemaLab.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.ToTable("Tecnicos", (string)null);
+                    b.HasDiscriminator().HasValue("Tecnico");
                 });
 
             modelBuilder.Entity("SistemaLab.Model.Reagente", b =>
@@ -235,24 +245,6 @@ namespace SistemaLab.Migrations
                         .IsRequired();
 
                     b.Navigation("categoriaResiduo");
-                });
-
-            modelBuilder.Entity("SistemaLab.Model.Aluno", b =>
-                {
-                    b.HasOne("SistemaLab.Model.Usuario", null)
-                        .WithOne()
-                        .HasForeignKey("SistemaLab.Model.Aluno", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("SistemaLab.Model.Tecnico", b =>
-                {
-                    b.HasOne("SistemaLab.Model.Usuario", null)
-                        .WithOne()
-                        .HasForeignKey("SistemaLab.Model.Tecnico", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("SistemaLab.Model.CategoriaReagente", b =>

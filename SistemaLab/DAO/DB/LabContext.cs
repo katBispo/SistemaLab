@@ -31,10 +31,15 @@ namespace SistemaLab.DAO.DB
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>()
-                .HasDiscriminator<string>("UserType")
-                .HasValue<Usuario>("Usuario")
-                .HasValue<Aluno>("Aluno")
-                .HasValue<Tecnico>("Tecnico");
+                    .ToTable("Usuarios");
+
+            modelBuilder.Entity<Aluno>()
+                .ToTable("Alunos")
+                .HasBaseType<Usuario>(); 
+
+            modelBuilder.Entity<Tecnico>()
+                .ToTable("Tecnicos")
+                .HasBaseType<Usuario>();
 
             modelBuilder.Entity<ReservaEquipamento>()
                 .HasOne(r => r.reservista)
