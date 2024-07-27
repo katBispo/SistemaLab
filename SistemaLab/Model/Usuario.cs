@@ -12,6 +12,8 @@ namespace SistemaLab.Model
         public DateTime DataNascimento { get; private set; }
         public string Telefone { get; private set; }
         public string Email { get; private set; }
+        public List<Reagente> Reagentes { get; private set; }
+        public List<Residuo> Residuos { get; private set; }
 
 
         public Usuario(int id, string nome, string cpf, DateTime dataNascimento, string telefone, string email)

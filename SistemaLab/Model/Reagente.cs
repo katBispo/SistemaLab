@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,12 @@ namespace SistemaLab.Model
         public string fabricante { get; private set; }
         public string lote { get; private set; }
 
-        private CategoriaReagente categoriaReagente;
+        [Column("id_usuario")]
+        public int UsuarioId { get; set; }
+        public Usuario Usuario { get; private set; }
+        [Column("id_categoria")]
+        public int CategoriaReagenteId { get; set; }
+        public CategoriaReagente categoriaReagente {  get; private set; }
 
         public Reagente(int id, string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote)
         {

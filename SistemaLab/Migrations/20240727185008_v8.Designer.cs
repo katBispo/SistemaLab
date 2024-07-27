@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaLab.DAO.DB;
 
@@ -10,9 +11,11 @@ using SistemaLab.DAO.DB;
 namespace SistemaLab.Migrations
 {
     [DbContext(typeof(LabContext))]
-    partial class LabContextModelSnapshot : ModelSnapshot
+    [Migration("20240727185008_v8")]
+    partial class v8
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
@@ -71,13 +74,11 @@ namespace SistemaLab.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CategoriaReagenteId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("id_categoria");
-
                     b.Property<int>("UsuarioId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("id_usuario");
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("categoriaReagenteid")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("dataVencimento")
                         .HasColumnType("TEXT");
@@ -96,9 +97,9 @@ namespace SistemaLab.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("CategoriaReagenteId");
-
                     b.HasIndex("UsuarioId");
+
+                    b.HasIndex("categoriaReagenteid");
 
                     b.ToTable("Reagentes");
                 });
@@ -135,13 +136,16 @@ namespace SistemaLab.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CategoriaResiduoId")
+                    b.Property<int>("CategoriaId")
                         .HasColumnType("INTEGER")
                         .HasColumnName("id_categoria");
 
                     b.Property<int>("UsuarioId")
                         .HasColumnType("INTEGER")
                         .HasColumnName("id_usuario");
+
+                    b.Property<int>("categoriaResiduoidCategoria")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("dataGeracao")
                         .HasColumnType("TEXT");
@@ -155,9 +159,9 @@ namespace SistemaLab.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("CategoriaResiduoId");
-
                     b.HasIndex("UsuarioId");
+
+                    b.HasIndex("categoriaResiduoidCategoria");
 
                     b.ToTable("Residuos");
                 });
@@ -218,15 +222,15 @@ namespace SistemaLab.Migrations
 
             modelBuilder.Entity("SistemaLab.Model.Reagente", b =>
                 {
-                    b.HasOne("SistemaLab.Model.CategoriaReagente", "categoriaReagente")
-                        .WithMany("reagentes")
-                        .HasForeignKey("CategoriaReagenteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("SistemaLab.Model.Usuario", "Usuario")
                         .WithMany("Reagentes")
                         .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SistemaLab.Model.CategoriaReagente", "categoriaReagente")
+                        .WithMany("reagentes")
+                        .HasForeignKey("categoriaReagenteid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -256,15 +260,15 @@ namespace SistemaLab.Migrations
 
             modelBuilder.Entity("SistemaLab.Model.Residuo", b =>
                 {
-                    b.HasOne("SistemaLab.Model.CategoriaResiduo", "categoriaResiduo")
-                        .WithMany("residuos")
-                        .HasForeignKey("CategoriaResiduoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("SistemaLab.Model.Usuario", "usuario")
                         .WithMany("Residuos")
                         .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SistemaLab.Model.CategoriaResiduo", "categoriaResiduo")
+                        .WithMany("residuos")
+                        .HasForeignKey("categoriaResiduoidCategoria")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
