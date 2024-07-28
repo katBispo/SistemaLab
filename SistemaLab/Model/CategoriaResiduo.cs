@@ -9,7 +9,6 @@ namespace SistemaLab.Model
 {
     public class CategoriaResiduo
     {
-        [Key]
         public int idCategoria { get; private set; }
         public string categoria { get; private set; }
 

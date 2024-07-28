@@ -9,25 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DAO\DB\**" />
     <Compile Remove="NovaPasta1\**" />
+    <EmbeddedResource Remove="DAO\DB\**" />
     <EmbeddedResource Remove="NovaPasta1\**" />
+    <None Remove="DAO\DB\**" />
     <None Remove="NovaPasta1\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MaterialSkin" Version="0.2.1" />
-    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.7" />
-    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.8" />
-    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.8" />
-    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,7 +34,6 @@
 
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

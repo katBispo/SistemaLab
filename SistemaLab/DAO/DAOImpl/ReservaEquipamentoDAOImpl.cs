@@ -1,5 +1,4 @@
-﻿using SistemaLab.DAO.DB;
-using SistemaLab.Model;
+﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class ReservaEquipamentoDAOImpl : ReservaEquipamentoDAO
+    public class ReservaEquipamentoDAOImpl //: ReservaEquipamentoDAO
     {
-        private readonly LabContext _context;
+       /* private readonly LabContext _context;
 
         public ReservaEquipamento buscarPorId(int id)
         {
@@ -36,6 +35,6 @@ namespace SistemaLab.DAO.DAOImpl
         {
             _context.ReservaEquipamentos.Remove(reservaEquipamento);
             _context.SaveChanges();
-        }
+        }*/
     }
 }

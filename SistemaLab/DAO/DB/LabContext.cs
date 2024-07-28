@@ -24,9 +24,10 @@ namespace SistemaLab.DAO.DB
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite("Data Source=labQuimica.db");
+                optionsBuilder.UseSqlite("Data Source=C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\labQuimica.db");
             }
         }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -54,6 +55,10 @@ namespace SistemaLab.DAO.DB
             modelBuilder.Entity<Equipamento>()
                 .HasMany(e => e.reservaEquipamentos)
                 .WithOne(r => r.equipamento);
+
+            modelBuilder.Entity<CategoriaReagente>();
+            modelBuilder.Entity<Reagente>();
+
         }
   }
 }

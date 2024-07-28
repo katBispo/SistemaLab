@@ -34,6 +34,7 @@
             toolStripButtonCadastro = new ToolStripButton();
             toolStripButtonEditar = new ToolStripButton();
             toolStripButtonRelatorio = new ToolStripButton();
+            button1 = new Button();
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -98,17 +99,29 @@
             toolStripButtonRelatorio.Size = new Size(34, 34);
             toolStripButtonRelatorio.Text = "toolStripButton1";
             // 
+            // button1
+            // 
+            button1.Location = new Point(322, 289);
+            button1.Name = "button1";
+            button1.Size = new Size(101, 30);
+            button1.TabIndex = 4;
+            button1.Text = "Teste";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // ListarReagenteView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkGreen;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(toolStrip1);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "ListarReagenteView";
             Text = "ListarReagenteView";
+            Load += ListarReagenteView_Load;
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ResumeLayout(false);
@@ -123,5 +136,6 @@
         private ToolStripButton toolStripButtonCadastro;
         private ToolStripButton toolStripButtonEditar;
         private ToolStripButton toolStripButtonRelatorio;
+        private Button button1;
     }
 }

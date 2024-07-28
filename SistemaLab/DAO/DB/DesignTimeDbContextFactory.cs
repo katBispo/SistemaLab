@@ -4,9 +4,9 @@ using SQLitePCL;
 
 namespace SistemaLab.DAO.DB
 {
-    public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<LabContext>
+    public  class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<LabContext>
     {
-        public LabContext CreateDbContext(string[] args)
+        public   LabContext CreateDbContext(string[] args)
         {
             Batteries.Init(); 
 

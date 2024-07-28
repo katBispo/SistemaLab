@@ -10,16 +10,14 @@ namespace SistemaLab.Model
 {
     public class ReservaEquipamento
     {
-        [Key]
+ 
         public int id { get;  set; }
         public DateTime data { get;  set; }
 
-        [Column("id_aluno")]
         public int AlunoId { get; set; }
         public Aluno reservista { get;  set; }
 
 
-        [Column("id_equipamento")]
         public int EquipamentoId { get; set; }
         public Equipamento equipamento { get;  set; }
 

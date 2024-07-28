@@ -9,9 +9,8 @@ namespace SistemaLab.Model
 {
     public class CategoriaReagente
     {
-        [Key]
         public int id {  get; set; }
-        public string nomeCategoria { get; private set; }
+        public string nomeCategoria { get;  set; }
 
         public CategoriaReagente(int id, string nomeCategoria)
         {

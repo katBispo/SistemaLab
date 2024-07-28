@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SistemaLab.Model;
-using SistemaLab.DAO.DB;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class CategoriaReagenteDAOImpl : CategoriaReagenteDAO
-    {
-        private readonly LabContext _context;
+    public class CategoriaReagenteDAOImpl //: CategoriaReagenteDAO
+    {/*
+        public CategoriaReagenteDAOImpl()
+        {
+
+            
+        }
 
         public CategoriaReagente buscarPorId(int id)
         {
@@ -26,16 +29,24 @@ namespace SistemaLab.DAO.DAOImpl
 
         public CategoriaReagente inserir(CategoriaReagente categoriaReagente)
         {
-            _context.CategoriaReagentes.Add(categoriaReagente);
-            _context.SaveChanges();
-            return categoriaReagente;
+            try
+            {
+                _context.CategoriaReagentes.Add(categoriaReagente);
+                _context.SaveChanges();
+                return categoriaReagente;
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Erro ao inserir CategoriaReagente", ex);
+            }
         }
 
-        
+
+
         public void  remover(CategoriaReagente categoriaReagente)
         {
             _context.CategoriaReagentes.Remove(categoriaReagente);
             _context.SaveChanges();
-        }
+        }*/
     }
 }

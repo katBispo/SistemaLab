@@ -10,20 +10,15 @@ namespace SistemaLab.Model
 {
     public class Reagente
     {
-        [Key]
-        public int id { get; private set; }
-        public string nome { get; private set; }
-        public DateTime dataVencimento { get; private set; }
-        public DateTime dataCadastro;
-        public string fabricante { get; private set; }
-        public string lote { get; private set; }
+        public int id { get;  set; }
+        public string nome { get;  set; }
+        public DateTime dataVencimento { get;  set; }
+        public DateTime? dataCadastro;
+        public string fabricante { get;  set; }
+        public string lote { get;  set; }
 
-        [Column("id_usuario")]
-        public int UsuarioId { get; set; }
-        public Usuario Usuario { get; private set; }
-        [Column("id_categoria")]
-        public int CategoriaReagenteId { get; set; }
-        public CategoriaReagente categoriaReagente {  get; private set; }
+        public Usuario Usuario { get;  set; }
+        public CategoriaReagente categoriaReagente {  get;  set; }
 
         public Reagente(int id, string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote)
         {

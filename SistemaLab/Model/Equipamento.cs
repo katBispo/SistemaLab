@@ -10,7 +10,6 @@ namespace SistemaLab.Model
 {
     public class Equipamento
     {
-        [Key]
         public int id { get; private set; }
         public string nomeEquipamento { get; private set; }
         public  StatusEquipamento statusEquipamento { get; private set; }

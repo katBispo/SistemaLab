@@ -1,4 +1,4 @@
-﻿using SistemaLab.DAO.DB;
+﻿
 using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
@@ -10,32 +10,37 @@ namespace SistemaLab.DAO.DAOImpl
 {
     public class ReagenteDAOImpl : ReagenteDAO
     {
-        private readonly LabContext _context;
+        private static List<Reagente> reagentes = new List<Reagente>();
+        private static int con = 0;
 
+        public ReagenteDAOImpl( )
+        {
+          
+        }
         public Reagente buscarPorId(int id)
         {
-            Reagente reagente = _context.Reagentes.Find(id);
+            Reagente reagente = reagentes.Find(r => r.id == id);
             return reagente;
         }
 
         public List<Reagente> buscarTodos()
         {
-            List<Reagente> categoriaReagentes = _context.Reagentes.ToList();
+            List<Reagente> categoriaReagentes = reagentes;
+
             return categoriaReagentes;
         }
 
         public Reagente inserir(Reagente reagente)
         {
-            _context.Reagentes.Add(reagente);
-            _context.SaveChanges();
-            return reagente;
+            reagente.id = con++;
+            reagentes.Add(reagente);
+            return reagente!;
         }
 
 
         public void remover(Reagente reagente)
         {
-            _context.Reagentes.Remove(reagente);
-            _context.SaveChanges();
+            reagentes.RemoveAll(r =>  r.id == reagente.id);
         }
     }
 }

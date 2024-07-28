@@ -1,5 +1,4 @@
-﻿using SistemaLab.DAO.DB;
-using SistemaLab.Model;
+﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class ResiduoDAOImpl : ResiduoDAO
+    public class ResiduoDAOImpl //: ResiduoDAO
     {
-        private readonly LabContext _context;
+        /*private readonly LabContext _context;
 
         public Residuo buscarPorId(int id)
         {
@@ -36,6 +35,6 @@ namespace SistemaLab.DAO.DAOImpl
         {
             _context.Residuos.Remove(residuo);
             _context.SaveChanges();
-        }
+        }*/
     }
 }

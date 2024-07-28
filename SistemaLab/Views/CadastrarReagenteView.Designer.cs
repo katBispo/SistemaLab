@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtNomeReagente = new TextBox();
+            txtLote = new TextBox();
+            txtFabricante = new TextBox();
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
             groupBox1 = new GroupBox();
@@ -61,29 +61,30 @@
             label1.TabIndex = 0;
             label1.Text = "Cadastro de Reagentes";
             // 
-            // textBox1
+            // txtNomeReagente
             // 
-            textBox1.Location = new Point(78, 108);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Nome do Reagente";
-            textBox1.Size = new Size(191, 23);
-            textBox1.TabIndex = 1;
+            txtNomeReagente.Location = new Point(78, 108);
+            txtNomeReagente.Name = "txtNomeReagente";
+            txtNomeReagente.PlaceholderText = "Nome do Reagente";
+            txtNomeReagente.Size = new Size(191, 23);
+            txtNomeReagente.TabIndex = 1;
+            txtNomeReagente.TextChanged += textBox1_TextChanged;
             // 
-            // textBox2
+            // txtLote
             // 
-            textBox2.Location = new Point(78, 172);
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "Lote";
-            textBox2.Size = new Size(191, 23);
-            textBox2.TabIndex = 2;
+            txtLote.Location = new Point(78, 172);
+            txtLote.Name = "txtLote";
+            txtLote.PlaceholderText = "Lote";
+            txtLote.Size = new Size(191, 23);
+            txtLote.TabIndex = 2;
             // 
-            // textBox3
+            // txtFabricante
             // 
-            textBox3.Location = new Point(301, 108);
-            textBox3.Name = "textBox3";
-            textBox3.PlaceholderText = "Fabricante";
-            textBox3.Size = new Size(191, 23);
-            textBox3.TabIndex = 3;
+            txtFabricante.Location = new Point(301, 108);
+            txtFabricante.Name = "txtFabricante";
+            txtFabricante.PlaceholderText = "Fabricante";
+            txtFabricante.Size = new Size(191, 23);
+            txtFabricante.TabIndex = 3;
             // 
             // radioButton1
             // 
@@ -124,6 +125,7 @@
             // 
             cmbBoxTipoReagente.AutoCompleteCustomSource.AddRange(new string[] { "Sal", "Ácido", "Base", "Óxido" });
             cmbBoxTipoReagente.FormattingEnabled = true;
+            cmbBoxTipoReagente.Items.AddRange(new object[] { "Base", "Ácido", "Orgânico", "Óxido" });
             cmbBoxTipoReagente.Location = new Point(301, 172);
             cmbBoxTipoReagente.Name = "cmbBoxTipoReagente";
             cmbBoxTipoReagente.Size = new Size(191, 23);
@@ -155,6 +157,7 @@
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Classificação";
+            groupBox2.Enter += groupBox2_Enter;
             // 
             // checkBox5
             // 
@@ -248,9 +251,9 @@
             Controls.Add(label2);
             Controls.Add(cmbBoxTipoReagente);
             Controls.Add(groupBox1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtFabricante);
+            Controls.Add(txtLote);
+            Controls.Add(txtNomeReagente);
             Controls.Add(label1);
             Name = "CadastrarReagenteView";
             Text = "Classificação Reagente";
@@ -265,9 +268,9 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtNomeReagente;
+        private TextBox txtLote;
+        private TextBox txtFabricante;
         private RadioButton radioButton1;
         private RadioButton radioButton2;
         private GroupBox groupBox1;

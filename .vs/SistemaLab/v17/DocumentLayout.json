@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\reagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\reagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\reagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\reagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\usuariodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\usuariodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\tecnicodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\tecnicodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\equipamentodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\equipamentodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\alunodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\alunodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\categoriareagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\categoriareagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\residuodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,68 +31,71 @@
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\reservaequipamentodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\reagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\reagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\usuariodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\usuariodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\equipamentodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\equipamentodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\categoriaresiduodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\categoriaresiduodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\equipamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\equipamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\categoriareagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\categoriareagentedaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\daoimpl\\alunodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\daoimpl\\alunodaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Berg Limma\\AppData\\Local\\SourceServer\\4f67949853caf1401085b2bbafd41f393513e7aecfce8ef5d6144f7434b9358a\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\categoriaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\categoriaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\reservaequipamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\reservaequipamentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\categoriareagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\categoriareagente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\residuodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\residuodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\tecnicodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\tecnicodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\alunodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\alunodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\categoriaresiduodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\categoriaresiduodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\categoriareagentedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\categoriareagentedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\reagentedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\reagentedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dao\\db\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\berg limma\\source\\repos\\sistemalab\\sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,84 +105,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reagente.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Reagente.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\Reagente.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Reagente.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\Reagente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:15:01.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TecnicoDAOImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:02:58.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResiduoDAOImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAIAzwAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:00:31.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReservaEquipamentoDAOImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwAwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:58:27.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ReagenteDAOImpl.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ReagenteDAOImpl.cs",
               "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\ReagenteDAOImpl.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ReagenteDAOImpl.cs",
               "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\ReagenteDAOImpl.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCYAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:56:54.911Z",
+              "WhenOpened": "2024-07-28T19:33:45.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Equipamento.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Model\\Equipamento.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
-              "RelativeToolTip": "SistemaLab\\Model\\Equipamento.cs",
+              "DocumentIndex": 6,
+              "Title": "ReservaEquipamentoDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\ReservaEquipamentoDAOImpl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:49:10.159Z",
+              "WhenOpened": "2024-07-28T21:08:16.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "ResiduoDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\ResiduoDAOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:09:32.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TecnicoDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\TecnicoDAOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:09:39.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:09:46.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastrarReagenteView.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "RelativeToolTip": "SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T18:57:38.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EquipamentoDAOImpl.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\EquipamentoDAOImpl.cs",
               "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\EquipamentoDAOImpl.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\EquipamentoDAOImpl.cs",
               "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\EquipamentoDAOImpl.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:46:07.722Z",
+              "WhenOpened": "2024-07-28T21:09:13.618Z",
               "EditorCaption": ""
             },
             {
@@ -186,205 +219,200 @@
               "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\CategoriaResiduoDAOImpl.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\CategoriaResiduoDAOImpl.cs",
               "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\CategoriaResiduoDAOImpl.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:44:49.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriaReagenteDAOImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:40:46.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlunoDAOImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:38:56.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReservaEquipamentoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\ReservaEquipamentoDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\ReservaEquipamentoDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\ReservaEquipamentoDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\ReservaEquipamentoDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:30:39.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoriaResiduoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\CategoriaResiduoDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\CategoriaResiduoDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\CategoriaResiduoDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\CategoriaResiduoDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:29:17.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CategoriaReagenteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\CategoriaReagenteDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\CategoriaReagenteDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\CategoriaReagenteDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\CategoriaReagenteDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:28:30.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ResiduoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\ResiduoDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\ResiduoDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\ResiduoDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\ResiduoDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:26:14.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ReagenteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\ReagenteDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\ReagenteDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\ReagenteDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\ReagenteDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:25:23.181Z",
+              "WhenOpened": "2024-07-28T21:08:39.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "EquipamentoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\EquipamentoDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\EquipamentoDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\EquipamentoDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\EquipamentoDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Title": "CategoriaReagenteDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:24:38.778Z",
+              "WhenOpened": "2024-07-28T19:22:39.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TecnicoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\TecnicoDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\TecnicoDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\TecnicoDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\TecnicoDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "DocumentIndex": 10,
+              "Title": "AlunoDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\AlunoDAOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:20:25.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AlunoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\AlunoDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\AlunoDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\AlunoDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\AlunoDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:16:14.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsuarioDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\UsuarioDAO.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\UsuarioDAO.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\UsuarioDAO.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\UsuarioDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:12:35.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioDAOImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DAOImpl\\UsuarioDAOImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:09:51.54Z",
+              "WhenOpened": "2024-07-28T21:08:27.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "LabContext.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\LabContext.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DB\\LabContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswC0AAAAqAAAA",
+              "Title": "Residuo.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Residuo.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\Residuo.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Residuo.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\Residuo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:09:19.549Z",
+              "WhenOpened": "2024-07-28T21:07:58.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriaReagenteDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\AppData\\Local\\SourceServer\\4f67949853caf1401085b2bbafd41f393513e7aecfce8ef5d6144f7434b9358a\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\4f67949853caf1401085b2bbafd41f393513e7aecfce8ef5d6144f7434b9358a\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\AppData\\Local\\SourceServer\\4f67949853caf1401085b2bbafd41f393513e7aecfce8ef5d6144f7434b9358a\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\4f67949853caf1401085b2bbafd41f393513e7aecfce8ef5d6144f7434b9358a\\SistemaLab\\DAO\\DAOImpl\\CategoriaReagenteDAOImpl.cs [Somente Leitura]",
+              "ViewState": "AQIAAAoAAAAAAAAAAAArwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:06:56.121Z",
+              "EditorCaption": " [Somente Leitura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CadastrarReagenteView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\CadastrarReagenteView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:01:24.564Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListarReagenteView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\ListarReagenteView.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\ListarReagenteView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:02:15.614Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Program.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Program.cs",
+              "RelativeToolTip": "SistemaLab\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T19:15:41.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListarReagenteView.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\ListarReagenteView.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs",
+              "RelativeToolTip": "SistemaLab\\Views\\ListarReagenteView.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:02:19.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Equipamento.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\Equipamento.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Equipamento.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\Equipamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:52:45.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoriaResiduo.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaResiduo.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\CategoriaResiduo.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaResiduo.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\CategoriaResiduo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:52:42.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoriaReagente.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaReagente.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\CategoriaReagente.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\CategoriaReagente.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\CategoriaReagente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:50:54.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T19:09:18.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "Aluno.cs",
               "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Aluno.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\Aluno.cs",
               "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Aluno.cs",
               "RelativeToolTip": "SistemaLab\\Model\\Aluno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T15:28:39.338Z",
+              "WhenOpened": "2024-07-28T20:52:35.931Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DB\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T19:32:24.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LabContext.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DAO\\DB\\LabContext.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\DAO\\DB\\LabContext.cs",
+              "RelativeToolTip": "SistemaLab\\DAO\\DB\\LabContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T18:59:30.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\MenuView.cs",
+              "ToolTip": "C:\\Users\\Berg Limma\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs",
+              "RelativeToolTip": "SistemaLab\\Views\\MenuView.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAwwBkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T18:57:27.162Z"
             }
           ]
         }

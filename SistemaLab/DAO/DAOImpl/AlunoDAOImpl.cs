@@ -1,5 +1,4 @@
-﻿using SistemaLab.DAO.DB;
-using SistemaLab.Model;
+﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class AlunoDAOImpl : AlunoDAO
+    public class AlunoDAOImpl //: AlunoDAO
     {
-        private readonly LabContext _context;
 
-        Aluno AlunoDAO.buscarPorId(int id)
+
+        /*Aluno AlunoDAO.buscarPorId(int id)
         {
             Aluno aluno = _context.Alunos.Find(id);
             return aluno;
@@ -35,6 +34,6 @@ namespace SistemaLab.DAO.DAOImpl
         {
             _context.Alunos.Remove(aluno);
             _context.SaveChanges();
-        }
+        }*/
     }
 }

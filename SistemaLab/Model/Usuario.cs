@@ -5,7 +5,6 @@ namespace SistemaLab.Model
 {
     public class Usuario
     {
-        [Key]
         public int Id { get; private set; }
         public string Nome { get; private set; }
         public string CPF { get; private set; }
