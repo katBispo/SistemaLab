@@ -9,7 +9,7 @@ namespace SistemaLab.Model
 {
     public class Residuo
     {
-        public int id { get; private set; }
+        public int id { get;  set; }
         public string nome { get;  set; }
         public DateTime dataGeracao { get;  set; }
         public StatusResiduo statusResiduo { get;  set; }

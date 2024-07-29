@@ -1,41 +1,43 @@
 ﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class EquipamentoDAOImpl //: EquipamentoDAO
-
+    public class EquipamentoDAOImpl : EquipamentoDAO
     {
-       /* private readonly LabContext _context;
+        private static List<Equipamento> equipamentos = new List<Equipamento>();
+        private static int con = 0;
+
+        public EquipamentoDAOImpl()
+        {
+            if (equipamentos == null)
+            {
+                equipamentos = new List<Equipamento>();
+            }
+        }
 
         public Equipamento buscarPorId(int id)
         {
-            Equipamento equipamento = _context.Equipamentos.Find(id);
+            Equipamento equipamento = equipamentos.Find(e => e.Id == id);
             return equipamento;
         }
 
         public List<Equipamento> buscarTodos()
         {
-            List<Equipamento> equipamentos = _context.Equipamentos.ToList();
-            return equipamentos;
+            return new List<Equipamento>(equipamentos);
         }
 
         public Equipamento inserir(Equipamento equipamento)
         {
-            _context.Equipamentos.Add(equipamento);
-            _context.SaveChanges();
+            equipamento.id = con++;
+            equipamentos.Add(equipamento);
             return equipamento;
         }
 
         public void remover(Equipamento equipamento)
         {
-            _context.Equipamentos.Remove(equipamento);
-            _context.SaveChanges();
-        }*/
+            equipamentos.RemoveAll(e => e.id == equipamento.id);
+        }
     }
 }

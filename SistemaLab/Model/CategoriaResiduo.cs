@@ -9,14 +9,14 @@ namespace SistemaLab.Model
 {
     public class CategoriaResiduo
     {
-        public int idCategoria { get; private set; }
-        public string categoria { get; private set; }
+        public int id { get;  set; }
+        public string categoria { get;  set; }
 
         public List<Residuo> residuos { get; private set; }
 
-        public CategoriaResiduo(int idCategoria, string categoria)
+        public CategoriaResiduo(int id, string categoria)
         {
-            this.idCategoria = idCategoria;
+            this.id = id;
             this.categoria = categoria;
         }
         public CategoriaResiduo() { }

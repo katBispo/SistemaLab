@@ -1,40 +1,44 @@
 ﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class ReservaEquipamentoDAOImpl //: ReservaEquipamentoDAO
+    public class ReservaEquipamentoDAOImpl : ReservaEquipamentoDAO
     {
-       /* private readonly LabContext _context;
+        private static List<ReservaEquipamento> reservasEquipamentos = new List<ReservaEquipamento>();
+        private static int con = 0;
+
+        // Construtor padrão
+        public ReservaEquipamentoDAOImpl()
+        {
+            if (reservasEquipamentos == null)
+            {
+                reservasEquipamentos = new List<ReservaEquipamento>();
+            }
+        }
 
         public ReservaEquipamento buscarPorId(int id)
         {
-            ReservaEquipamento reservaEquipamento = _context.ReservaEquipamentos.Find(id);
+            ReservaEquipamento reservaEquipamento = reservasEquipamentos.Find(r => r.id == id);
             return reservaEquipamento;
         }
 
         public List<ReservaEquipamento> buscarTodos()
         {
-            List<ReservaEquipamento> reservaEquipamentos = _context.ReservaEquipamentos.ToList();
-            return reservaEquipamentos;
+            return new List<ReservaEquipamento>(reservasEquipamentos);
         }
 
         public ReservaEquipamento inserir(ReservaEquipamento reservaEquipamento)
         {
-            _context.ReservaEquipamentos.Add(reservaEquipamento);
-            _context.SaveChanges();
+            reservaEquipamento.id = con++;
+            reservasEquipamentos.Add(reservaEquipamento);
             return reservaEquipamento;
         }
 
-
         public void remover(ReservaEquipamento reservaEquipamento)
         {
-            _context.ReservaEquipamentos.Remove(reservaEquipamento);
-            _context.SaveChanges();
-        }*/
+            reservasEquipamentos.RemoveAll(r => r.id == reservaEquipamento.id);
+        }
     }
 }

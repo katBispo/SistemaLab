@@ -10,10 +10,10 @@ namespace SistemaLab.Model
 {
     public class Equipamento
     {
-        public int id { get; private set; }
-        public string nomeEquipamento { get; private set; }
-        public  StatusEquipamento statusEquipamento { get; private set; }
-        public List<ReservaEquipamento> reservaEquipamentos { get; private set; }
+        public int id { get;  set; }
+        public string nomeEquipamento { get;  set; }
+        public  StatusEquipamento statusEquipamento { get;  set; }
+        public List<ReservaEquipamento> reservaEquipamentos { get;   set; }
 
         public Equipamento(int id, string nomeEquipamento, StatusEquipamento statusEquipamento)
         {

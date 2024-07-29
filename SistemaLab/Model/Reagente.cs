@@ -13,7 +13,7 @@ namespace SistemaLab.Model
         public int id { get;  set; }
         public string nome { get;  set; }
         public DateTime dataVencimento { get;  set; }
-        public DateTime? dataCadastro;
+        public DateTime dataCadastro;
         public string fabricante { get;  set; }
         public string lote { get;  set; }
 

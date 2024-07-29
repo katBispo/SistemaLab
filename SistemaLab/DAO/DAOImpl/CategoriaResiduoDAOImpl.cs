@@ -1,39 +1,40 @@
 ﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class CategoriaResiduoDAOImpl //: CategoriaResiduoDAO
+    public class CategoriaResiduoDAOImpl : CategoriaResiduoDAO
     {
-        /*private readonly LabContext _context;
+        private static List<CategoriaResiduo> categoriaResiduos = new List<CategoriaResiduo>();
+        private static int con = 0;
 
-       public CategoriaResiduo buscarPorId(int id)
+        public CategoriaResiduoDAOImpl()
         {
-            CategoriaResiduo categoriaResiduo = _context.CategoriaResiduos.Find(id);
+          
+        }
+
+        public CategoriaResiduo buscarPorId(int id)
+        {
+            CategoriaResiduo categoriaResiduo = categoriaResiduos.Find(c => c.id == id);
             return categoriaResiduo;
         }
 
         public List<CategoriaResiduo> buscarTodos()
         {
-            List<CategoriaResiduo> categoriaResiduos = _context.CategoriaResiduos.ToList();
-            return categoriaResiduos;
+            return new List<CategoriaResiduo>(categoriaResiduos);
         }
 
         public CategoriaResiduo inserir(CategoriaResiduo categoriaResiduo)
         {
-            _context.CategoriaResiduos.Add(categoriaResiduo);
-            _context.SaveChanges();
+            categoriaResiduo.id = con++;
+            categoriaResiduos.Add(categoriaResiduo);
             return categoriaResiduo;
         }
 
         public void remover(CategoriaResiduo categoriaResiduo)
         {
-            _context.CategoriaResiduos.Remove(categoriaResiduo);
-            _context.SaveChanges();
-        }*/
+            categoriaResiduos.RemoveAll(c => c.id == categoriaResiduo.id);
+        }
     }
 }

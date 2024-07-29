@@ -25,9 +25,9 @@ namespace SistemaLab.DAO.DAOImpl
 
         public List<Reagente> buscarTodos()
         {
-            List<Reagente> categoriaReagentes = reagentes;
+         
 
-            return categoriaReagentes;
+            return new List<Reagente>(reagentes);
         }
 
         public Reagente inserir(Reagente reagente)

@@ -7,33 +7,30 @@ using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class AlunoDAOImpl //: AlunoDAO
+    public class AlunoDAOImpl : AlunoDAO
     {
+        private static List<Aluno> alunos = new List<Aluno>();
 
-
-        /*Aluno AlunoDAO.buscarPorId(int id)
+        public Aluno buscarPorId(int id)
         {
-            Aluno aluno = _context.Alunos.Find(id);
+            Aluno aluno = alunos.Find(x => x.Id == id);
             return aluno;
         }
 
-        List<Aluno> AlunoDAO.buscarTodos()
+        public List<Aluno> buscarTodos()
         {
-            List<Aluno> usuarios = _context.Alunos.ToList();
-            return usuarios;
+            return new List<Aluno>(alunos); 
         }
 
-        Aluno AlunoDAO.inserir(Aluno aluno)
+        public Aluno inserir(Aluno aluno)
         {
-            _context.Alunos.Add(aluno);
-            _context.SaveChanges();
-            return aluno;
+          alunos.Add(aluno);
+          return aluno;
         }
 
-        void AlunoDAO.remover(Aluno aluno)
+        public void remover(Aluno aluno)
         {
-            _context.Alunos.Remove(aluno);
-            _context.SaveChanges();
-        }*/
+            alunos.RemoveAll(a => a.Id == aluno.Id);
+        }
     }
 }
