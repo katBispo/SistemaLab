@@ -17,7 +17,7 @@ namespace SistemaLab.DAO.DAOImpl
 
         public CategoriaReagente buscarPorId(int id)
         {
-            CategoriaReagente categoriaReagente = categoriaReagentes.Find(c => c.Id == id);
+            CategoriaReagente categoriaReagente = categoriaReagentes.Find(c => c.id == id);
             return categoriaReagente;
         }
 

@@ -1,19 +1,15 @@
-﻿using SistemaLab.DAO.DAOImpl;
+﻿using SistemaLab.Controller;
+using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using SistemaLab.Model;
 
 namespace SistemaLab
 {
     public partial class ListarReagenteView : Form
     {
+        private ReagenteController reagenteController = new ReagenteController();
+
         public ListarReagenteView()
         {
             InitializeComponent();
@@ -21,23 +17,25 @@ namespace SistemaLab
 
         private void ListarReagenteView_Load(object sender, EventArgs e)
         {
-
+            // Carregar dados no DataGridView ao carregar o formulário
+            CarregarDados();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ReagenteDAOImpl re = new ReagenteDAOImpl();
-            List<Reagente> reagentes = re.buscarTodos();
+            CarregarDados();
+        }
 
-            List<String> nomesReagentes = new List<String>();
+        private void CarregarDados()
+        {
+            List<Reagente> reagentes = reagenteController.listarReagentes();
+            dgvReagente.DataSource = null;
 
-            foreach (Reagente r in reagentes)
-            {
-                nomesReagentes.Add(r.nome);
-            }
-            string mensagem = string.Join(Environment.NewLine, nomesReagentes);
+            dgvReagente.DataSource = reagentes;
+        }
 
-            MessageBox.Show(mensagem);
+        private void dgvReagente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
         }
     }
 }

@@ -5,7 +5,7 @@ namespace SistemaLab.Model
 {
     public class Usuario
     {
-        public int Id { get; private set; }
+        public int Id { get;  set; }
         public string Nome { get; private set; }
         public string CPF { get; private set; }
         public DateTime DataNascimento { get; private set; }

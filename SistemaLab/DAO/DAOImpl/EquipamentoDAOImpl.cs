@@ -19,7 +19,7 @@ namespace SistemaLab.DAO.DAOImpl
 
         public Equipamento buscarPorId(int id)
         {
-            Equipamento equipamento = equipamentos.Find(e => e.Id == id);
+            Equipamento equipamento = equipamentos.Find(e => e.id == id);
             return equipamento;
         }
 

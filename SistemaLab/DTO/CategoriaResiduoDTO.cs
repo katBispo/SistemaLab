@@ -12,7 +12,7 @@ namespace SistemaLab.DTO
         {
             this.categoria = categoria;
         }
-
+       
         public string categoria { get; private set; }
     }
 }

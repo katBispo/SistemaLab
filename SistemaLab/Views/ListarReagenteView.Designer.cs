@@ -35,7 +35,9 @@
             toolStripButtonEditar = new ToolStripButton();
             toolStripButtonRelatorio = new ToolStripButton();
             button1 = new Button();
+            dgvReagente = new DataGridView();
             toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvReagente).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -101,7 +103,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(322, 289);
+            button1.Location = new Point(320, 382);
             button1.Name = "button1";
             button1.Size = new Size(101, 30);
             button1.TabIndex = 4;
@@ -109,12 +111,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // dgvReagente
+            // 
+            dgvReagente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvReagente.Location = new Point(41, 148);
+            dgvReagente.Name = "dgvReagente";
+            dgvReagente.Size = new Size(717, 204);
+            dgvReagente.TabIndex = 5;
+            dgvReagente.CellContentClick += dgvReagente_CellContentClick;
+            // 
             // ListarReagenteView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkGreen;
             ClientSize = new Size(800, 450);
+            Controls.Add(dgvReagente);
             Controls.Add(button1);
             Controls.Add(toolStrip1);
             Controls.Add(label2);
@@ -124,6 +136,7 @@
             Load += ListarReagenteView_Load;
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvReagente).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -137,5 +150,6 @@
         private ToolStripButton toolStripButtonEditar;
         private ToolStripButton toolStripButtonRelatorio;
         private Button button1;
+        private DataGridView dgvReagente;
     }
 }
