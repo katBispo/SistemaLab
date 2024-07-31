@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaLab.Views
+namespace SistemaLab
 {
     public partial class MenuView : Form
     {
@@ -16,12 +16,16 @@ namespace SistemaLab.Views
         {
             InitializeComponent();
         }
+        private void MenuView_Load(object sender, EventArgs e)
+        {
+            
+        }
 
         private void cadastrarReagenteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CadastrarReagenteView cadastrarReagente  =  new CadastrarReagenteView();
-            cadastrarReagente.MdiParent = this;
-            cadastrarReagente.Show();
+            CadastrarReagenteView telaCadastrarReagente = new CadastrarReagenteView();
+            telaCadastrarReagente.MdiParent = this;
+            telaCadastrarReagente.Show();
         }
     }
 }

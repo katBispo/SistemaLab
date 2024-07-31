@@ -1,4 +1,4 @@
-using SistemaLab.Views;
+using SistemaLab;
 
 namespace SistemaLab
 {
