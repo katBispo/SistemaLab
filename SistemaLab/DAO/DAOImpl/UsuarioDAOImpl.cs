@@ -1,39 +1,42 @@
 ﻿using SistemaLab.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SistemaLab.DAO.DAOImpl
 {
-    public class UsuarioDAOImpl //: UsuarioDAO
+    public class UsuarioDAOImpl : UsuarioDAO
     {
-       /* private readonly LabContext _context;
+        private static List<Usuario> usuarios = new List<Usuario>();
+        private static int con = 0;
 
-        Usuario UsuarioDAO.buscarPorId(int id)
+        public UsuarioDAOImpl()
         {
-            Usuario usuario = _context.Usuarios.Find(id);
+           
+        }
+
+        public Usuario buscarPorId(int id)
+        {
+            Usuario usuario = usuarios.Find(u => u.Id == id);
             return usuario;
         }
 
-        List<Usuario> UsuarioDAO.buscarTodos()
+        public List<Usuario> buscarTodos()
         {
-            List<Usuario> usuarios = _context.Usuarios.ToList();
-            return usuarios;
+            // Retorna uma nova lista para evitar modificações externas
+            return new List<Usuario>(usuarios);
         }
 
-        Usuario UsuarioDAO.inserir(Usuario usuario)
+        public Usuario inserir(Usuario usuario)
         {
-            _context.Usuarios.Add(usuario);
-            _context.SaveChanges();
+            usuario.Id = con++;
+            usuarios.Add(usuario);
             return usuario;
         }
 
-        void UsuarioDAO.remover(Usuario usuario)
+        // Método para remover um usuário
+        public void remover(Usuario usuario)
         {
-            _context.Usuarios.Remove(usuario);
-            _context.SaveChanges();
-        }*/
+            usuarios.RemoveAll(u => u.Id == usuario.Id);
+        }
     }
 }

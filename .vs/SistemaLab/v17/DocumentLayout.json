@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\menuview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\menuview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarequipamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarequipamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\controller\\residuocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\controller\\residuocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CadastrarEquipamentoView.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarEquipamentoView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarEquipamentoView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarEquipamentoView.cs",
-              "RelativeToolTip": "SistemaLab\\Views\\CadastrarEquipamentoView.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwBsAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "LoginView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\LoginView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\LoginView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\LoginView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\LoginView.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:42:07.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuView.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\MenuView.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\MenuView.Designer.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\MenuView.Designer.cs",
-              "RelativeToolTip": "SistemaLab\\MenuView.Designer.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAADgv0UAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:40:26.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T20:39:27.475Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuView.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\MenuView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\MenuView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\MenuView.cs",
-              "RelativeToolTip": "SistemaLab\\MenuView.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAkwAwAAAAaAAAA",
+              "Title": "MenuView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\MenuView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\MenuView.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:38:33.875Z",
+              "WhenOpened": "2024-07-31T19:50:24.911Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\DTO\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\DTO\\UsuarioDTO.cs",
+              "RelativeToolTip": "SistemaLab\\DTO\\UsuarioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:40:30.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuView.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\MenuView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\MenuView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\MenuView.cs [Projeto]",
-              "RelativeToolTip": "SistemaLab\\MenuView.cs [Projeto]",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Controller\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Controller\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Controller\\UsuarioController.cs",
+              "RelativeToolTip": "SistemaLab\\Controller\\UsuarioController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAjwBAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T18:37:30.556Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-07-31T19:39:03.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResiduoController.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Controller\\ResiduoController.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Controller\\ResiduoController.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Controller\\ResiduoController.cs",
+              "RelativeToolTip": "SistemaLab\\Controller\\ResiduoController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:35:05.612Z",
+              "EditorCaption": ""
             }
           ]
         }
