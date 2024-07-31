@@ -58,6 +58,7 @@
             dtvResiduo.Name = "dtvResiduo";
             dtvResiduo.Size = new Size(593, 150);
             dtvResiduo.TabIndex = 6;
+            dtvResiduo.CellContentClick += dtvResiduo_CellContentClick;
             // 
             // label1
             // 

@@ -28,10 +28,20 @@ namespace SistemaLab
 
         private void CarregarDados()
         {
+
             List<Reagente> reagentes = reagenteController.listarReagentes();
+            var lista = reagentes.Select(reagente => new
+            {
+                Nome = reagente.nome,
+                Fabricante = reagente.fabricante,
+                Categoria = reagente.categoriaReagente != null ? reagente.categoriaReagente.nomeCategoria : "Sem Categoria",
+                DataVencimento = reagente.dataVencimento,
+                DataCadastro = reagente.dataCadastro,
+                Lote = reagente.lote
+            }).ToList();
             dgvReagente.DataSource = null;
 
-            dgvReagente.DataSource = reagentes;
+            dgvReagente.DataSource = lista;
         }
 
         private void dgvReagente_CellContentClick(object sender, DataGridViewCellEventArgs e)

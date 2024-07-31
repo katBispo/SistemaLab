@@ -31,8 +31,17 @@ namespace SistemaLab
         {
             List<Residuo> residuos = residuoController.listarResiduo();
 
+            var resultado = from res in residuos
+                            select new
+                            {
+                                res.nome,
+                                res.dataGeracao,
+                                Categoria = res.categoriaResiduo.categoria // Ajuste conforme a estrutura da sua classe
+                            };
+
+            // Configura o DataGridView
             dtvResiduo.DataSource = null;
-            dtvResiduo.DataSource = residuos;
+            dtvResiduo.DataSource = resultado.ToList(); dtvResiduo.DataSource = null;
 
 
         }
@@ -43,6 +52,11 @@ namespace SistemaLab
             CadastrarResiduoView telaCadastroResiduo = new CadastrarResiduoView();
             telaCadastroResiduo.FormClosed += (s, args) => this.Close();
             telaCadastroResiduo.Show(this);
+        }
+
+        private void dtvResiduo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
