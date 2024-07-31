@@ -32,7 +32,6 @@
             label2 = new Label();
             toolStrip1 = new ToolStrip();
             toolStripButtonCadastro = new ToolStripButton();
-            toolStripButtonEditar = new ToolStripButton();
             toolStripButtonRelatorio = new ToolStripButton();
             button1 = new Button();
             dgvReagente = new DataGridView();
@@ -50,6 +49,7 @@
             label1.Size = new Size(192, 29);
             label1.TabIndex = 1;
             label1.Text = "Lista de Reagentes";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -64,7 +64,7 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButtonEditar, toolStripButtonRelatorio });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButtonRelatorio });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 37);
@@ -80,16 +80,7 @@
             toolStripButtonCadastro.Name = "toolStripButtonCadastro";
             toolStripButtonCadastro.Size = new Size(34, 34);
             toolStripButtonCadastro.Text = "toolStripButton1";
-            // 
-            // toolStripButtonEditar
-            // 
-            toolStripButtonEditar.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButtonEditar.Image = Properties.Resources.editar__1_;
-            toolStripButtonEditar.ImageScaling = ToolStripItemImageScaling.None;
-            toolStripButtonEditar.ImageTransparentColor = Color.Magenta;
-            toolStripButtonEditar.Name = "toolStripButtonEditar";
-            toolStripButtonEditar.Size = new Size(28, 34);
-            toolStripButtonEditar.Text = "toolStripButton2";
+            toolStripButtonCadastro.Click += toolStripButtonCadastro_Click;
             // 
             // toolStripButtonRelatorio
             // 
@@ -147,7 +138,6 @@
         private Label label2;
         private ToolStrip toolStrip1;
         private ToolStripButton toolStripButtonCadastro;
-        private ToolStripButton toolStripButtonEditar;
         private ToolStripButton toolStripButtonRelatorio;
         private Button button1;
         private DataGridView dgvReagente;

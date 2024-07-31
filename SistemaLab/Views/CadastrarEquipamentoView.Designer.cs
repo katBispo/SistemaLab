@@ -30,9 +30,9 @@
         {
             panel1 = new Panel();
             button1 = new Button();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtBoxModelo = new TextBox();
+            txtBoxMarca = new TextBox();
+            txtBoxNomeEquipamento = new TextBox();
             label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -41,9 +41,9 @@
             // 
             panel1.BackColor = Color.DarkGreen;
             panel1.Controls.Add(button1);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(txtBoxModelo);
+            panel1.Controls.Add(txtBoxMarca);
+            panel1.Controls.Add(txtBoxNomeEquipamento);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
@@ -64,29 +64,29 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // textBox3
+            // txtBoxModelo
             // 
-            textBox3.Location = new Point(302, 124);
-            textBox3.Name = "textBox3";
-            textBox3.PlaceholderText = "Modelo";
-            textBox3.Size = new Size(191, 23);
-            textBox3.TabIndex = 12;
+            txtBoxModelo.Location = new Point(302, 124);
+            txtBoxModelo.Name = "txtBoxModelo";
+            txtBoxModelo.PlaceholderText = "Modelo";
+            txtBoxModelo.Size = new Size(191, 23);
+            txtBoxModelo.TabIndex = 12;
             // 
-            // textBox2
+            // txtBoxMarca
             // 
-            textBox2.Location = new Point(79, 188);
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "Marca";
-            textBox2.Size = new Size(191, 23);
-            textBox2.TabIndex = 11;
+            txtBoxMarca.Location = new Point(79, 188);
+            txtBoxMarca.Name = "txtBoxMarca";
+            txtBoxMarca.PlaceholderText = "Marca";
+            txtBoxMarca.Size = new Size(191, 23);
+            txtBoxMarca.TabIndex = 11;
             // 
-            // textBox1
+            // txtBoxNomeEquipamento
             // 
-            textBox1.Location = new Point(79, 124);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Nome do Equipamento";
-            textBox1.Size = new Size(191, 23);
-            textBox1.TabIndex = 10;
+            txtBoxNomeEquipamento.Location = new Point(79, 124);
+            txtBoxNomeEquipamento.Name = "txtBoxNomeEquipamento";
+            txtBoxNomeEquipamento.PlaceholderText = "Nome do Equipamento";
+            txtBoxNomeEquipamento.Size = new Size(191, 23);
+            txtBoxNomeEquipamento.TabIndex = 10;
             // 
             // label1
             // 
@@ -115,9 +115,9 @@
         #endregion
 
         private Panel panel1;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtBoxModelo;
+        private TextBox txtBoxMarca;
+        private TextBox txtBoxNomeEquipamento;
         private Label label1;
         private Button button1;
     }

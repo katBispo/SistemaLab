@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SistemaLab.Controller;
+using SistemaLab.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,35 @@ namespace SistemaLab
 {
     public partial class ListarResiduoView : Form
     {
+        private ResiduoController residuoController = new ResiduoController();
+
         public ListarResiduoView()
         {
             InitializeComponent();
+        }
+
+        private void ListarResiduoView_Load(object sender, EventArgs e)
+        {
+            // Carregar dados no DataGridView ao carregar o formulário
+            CarregarDados();
+        }
+
+        private void CarregarDados()
+        {
+            List<Residuo> residuos = residuoController.listarResiduo();
+
+            dtvResiduo.DataSource = null;
+            dtvResiduo.DataSource = residuos;
+
+
+        }
+
+        private void toolStripButtonCadastro_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CadastrarResiduoView telaCadastroResiduo = new CadastrarResiduoView();
+            telaCadastroResiduo.FormClosed += (s, args) => this.Close();
+            telaCadastroResiduo.Show(this);
         }
     }
 }

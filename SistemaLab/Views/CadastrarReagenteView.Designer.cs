@@ -44,7 +44,7 @@
             checkBox2 = new CheckBox();
             checkBox1 = new CheckBox();
             button1 = new Button();
-            dateTimePicker1 = new DateTimePicker();
+            dtpVencimentoReagente = new DateTimePicker();
             label3 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -221,12 +221,12 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // dateTimePicker1
+            // dtpVencimentoReagente
             // 
-            dateTimePicker1.Location = new Point(78, 236);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 10;
+            dtpVencimentoReagente.Location = new Point(78, 236);
+            dtpVencimentoReagente.Name = "dtpVencimentoReagente";
+            dtpVencimentoReagente.Size = new Size(200, 23);
+            dtpVencimentoReagente.TabIndex = 10;
             // 
             // label3
             // 
@@ -245,7 +245,7 @@
             BackColor = Color.DarkGreen;
             ClientSize = new Size(702, 574);
             Controls.Add(label3);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(dtpVencimentoReagente);
             Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(label2);
@@ -283,7 +283,7 @@
         private CheckBox checkBox2;
         private CheckBox checkBox1;
         private Button button1;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpVencimentoReagente;
         private Label label3;
     }
 }

@@ -29,18 +29,20 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            dtvResiduo = new DataGridView();
+            label1 = new Label();
             toolStrip1 = new ToolStrip();
             toolStripButtonCadastro = new ToolStripButton();
-            toolStripButtonEditar = new ToolStripButton();
             toolStripButtonRelatorio = new ToolStripButton();
-            label1 = new Label();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtvResiduo).BeginInit();
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.DarkGreen;
+            panel1.Controls.Add(dtvResiduo);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(toolStrip1);
             panel1.Dock = DockStyle.Fill;
@@ -49,9 +51,28 @@
             panel1.Size = new Size(800, 450);
             panel1.TabIndex = 0;
             // 
+            // dtvResiduo
+            // 
+            dtvResiduo.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtvResiduo.Location = new Point(141, 169);
+            dtvResiduo.Name = "dtvResiduo";
+            dtvResiduo.Size = new Size(593, 150);
+            dtvResiduo.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(56, 73);
+            label1.Name = "label1";
+            label1.Size = new Size(180, 29);
+            label1.TabIndex = 5;
+            label1.Text = "Lista de Resíduos";
+            // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButtonEditar, toolStripButtonRelatorio });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButtonRelatorio });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 37);
@@ -67,16 +88,7 @@
             toolStripButtonCadastro.Name = "toolStripButtonCadastro";
             toolStripButtonCadastro.Size = new Size(34, 34);
             toolStripButtonCadastro.Text = "toolStripButton1";
-            // 
-            // toolStripButtonEditar
-            // 
-            toolStripButtonEditar.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButtonEditar.Image = Properties.Resources.editar__1_;
-            toolStripButtonEditar.ImageScaling = ToolStripItemImageScaling.None;
-            toolStripButtonEditar.ImageTransparentColor = Color.Magenta;
-            toolStripButtonEditar.Name = "toolStripButtonEditar";
-            toolStripButtonEditar.Size = new Size(28, 34);
-            toolStripButtonEditar.Text = "toolStripButton2";
+            toolStripButtonCadastro.Click += toolStripButtonCadastro_Click;
             // 
             // toolStripButtonRelatorio
             // 
@@ -88,17 +100,6 @@
             toolStripButtonRelatorio.Size = new Size(34, 34);
             toolStripButtonRelatorio.Text = "toolStripButton1";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(56, 73);
-            label1.Name = "label1";
-            label1.Size = new Size(180, 29);
-            label1.TabIndex = 5;
-            label1.Text = "Lista de Resíduos";
-            // 
             // ListarResiduoView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -107,8 +108,10 @@
             Controls.Add(panel1);
             Name = "ListarResiduoView";
             Text = "ListarResiduoView";
+            Load += ListarResiduoView_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dtvResiduo).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ResumeLayout(false);
@@ -119,8 +122,8 @@
         private Panel panel1;
         private ToolStrip toolStrip1;
         private ToolStripButton toolStripButtonCadastro;
-        private ToolStripButton toolStripButtonEditar;
         private ToolStripButton toolStripButtonRelatorio;
         private Label label1;
+        private DataGridView dtvResiduo;
     }
 }

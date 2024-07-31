@@ -1,5 +1,8 @@
+using SistemaLab.Views;
+
 namespace SistemaLab
 {
+    
     public partial class LoginView : Form
     {
         public LoginView()
@@ -15,7 +18,9 @@ namespace SistemaLab
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
+            
             MenuView menu = new MenuView();
+
             menu.FormClosed += (s, args) => this.Close();
             menu.Show(this);
         }

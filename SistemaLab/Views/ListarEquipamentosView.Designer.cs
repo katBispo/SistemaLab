@@ -29,18 +29,20 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            dtvEquipamentos = new DataGridView();
             toolStrip1 = new ToolStrip();
             toolStripButtonCadastroEquipamento = new ToolStripButton();
-            toolStripButtonEditar = new ToolStripButton();
             toolStripButtonRelatorio = new ToolStripButton();
             label1 = new Label();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtvEquipamentos).BeginInit();
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.DarkGreen;
+            panel1.Controls.Add(dtvEquipamentos);
             panel1.Controls.Add(toolStrip1);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
@@ -49,9 +51,17 @@
             panel1.Size = new Size(800, 450);
             panel1.TabIndex = 0;
             // 
+            // dtvEquipamentos
+            // 
+            dtvEquipamentos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtvEquipamentos.Location = new Point(63, 155);
+            dtvEquipamentos.Name = "dtvEquipamentos";
+            dtvEquipamentos.Size = new Size(650, 150);
+            dtvEquipamentos.TabIndex = 5;
+            // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastroEquipamento, toolStripButtonEditar, toolStripButtonRelatorio });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastroEquipamento, toolStripButtonRelatorio });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 37);
@@ -68,16 +78,6 @@
             toolStripButtonCadastroEquipamento.Size = new Size(34, 34);
             toolStripButtonCadastroEquipamento.Text = "toolStripButton1";
             toolStripButtonCadastroEquipamento.Click += toolStripButtonCadastroEquipamento_Click;
-            // 
-            // toolStripButtonEditar
-            // 
-            toolStripButtonEditar.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButtonEditar.Image = Properties.Resources.editar__1_;
-            toolStripButtonEditar.ImageScaling = ToolStripItemImageScaling.None;
-            toolStripButtonEditar.ImageTransparentColor = Color.Magenta;
-            toolStripButtonEditar.Name = "toolStripButtonEditar";
-            toolStripButtonEditar.Size = new Size(28, 34);
-            toolStripButtonEditar.Text = "toolStripButton2";
             // 
             // toolStripButtonRelatorio
             // 
@@ -108,8 +108,10 @@
             Controls.Add(panel1);
             Name = "ListarEquipamentosView";
             Text = "ListarEquipamentos";
+            Load += ListarEquipamentosView_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dtvEquipamentos).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ResumeLayout(false);
@@ -121,7 +123,7 @@
         private Label label1;
         private ToolStrip toolStrip1;
         private ToolStripButton toolStripButtonCadastroEquipamento;
-        private ToolStripButton toolStripButtonEditar;
         private ToolStripButton toolStripButtonRelatorio;
+        private DataGridView dtvEquipamentos;
     }
 }

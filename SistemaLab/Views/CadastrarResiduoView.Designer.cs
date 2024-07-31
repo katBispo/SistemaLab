@@ -30,34 +30,34 @@
         {
             panel1 = new Panel();
             button1 = new Button();
-            groupBox2 = new GroupBox();
+            gpbClassificacaoResiduo = new GroupBox();
             checkBox5 = new CheckBox();
             checkBox4 = new CheckBox();
             checkBox3 = new CheckBox();
             checkBox2 = new CheckBox();
             checkBox1 = new CheckBox();
             label3 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            dtpGeracaoResiduo = new DateTimePicker();
             label2 = new Label();
-            cmbBoxTipoResiduo = new ComboBox();
+            cmbBoxCategoriaResiduo = new ComboBox();
             textBox3 = new TextBox();
-            textBox1 = new TextBox();
+            txtBoxNomeResiduo = new TextBox();
             label1 = new Label();
             panel1.SuspendLayout();
-            groupBox2.SuspendLayout();
+            gpbClassificacaoResiduo.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.DarkGreen;
             panel1.Controls.Add(button1);
-            panel1.Controls.Add(groupBox2);
+            panel1.Controls.Add(gpbClassificacaoResiduo);
             panel1.Controls.Add(label3);
-            panel1.Controls.Add(dateTimePicker1);
+            panel1.Controls.Add(dtpGeracaoResiduo);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(cmbBoxTipoResiduo);
+            panel1.Controls.Add(cmbBoxCategoriaResiduo);
             panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(txtBoxNomeResiduo);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
@@ -77,21 +77,21 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // groupBox2
+            // gpbClassificacaoResiduo
             // 
-            groupBox2.Controls.Add(checkBox5);
-            groupBox2.Controls.Add(checkBox4);
-            groupBox2.Controls.Add(checkBox3);
-            groupBox2.Controls.Add(checkBox2);
-            groupBox2.Controls.Add(checkBox1);
-            groupBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = SystemColors.ControlLight;
-            groupBox2.Location = new Point(51, 235);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(228, 177);
-            groupBox2.TabIndex = 18;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Classificação";
+            gpbClassificacaoResiduo.Controls.Add(checkBox5);
+            gpbClassificacaoResiduo.Controls.Add(checkBox4);
+            gpbClassificacaoResiduo.Controls.Add(checkBox3);
+            gpbClassificacaoResiduo.Controls.Add(checkBox2);
+            gpbClassificacaoResiduo.Controls.Add(checkBox1);
+            gpbClassificacaoResiduo.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            gpbClassificacaoResiduo.ForeColor = SystemColors.ControlLight;
+            gpbClassificacaoResiduo.Location = new Point(51, 235);
+            gpbClassificacaoResiduo.Name = "gpbClassificacaoResiduo";
+            gpbClassificacaoResiduo.Size = new Size(228, 177);
+            gpbClassificacaoResiduo.TabIndex = 18;
+            gpbClassificacaoResiduo.TabStop = false;
+            gpbClassificacaoResiduo.Text = "Classificação";
             // 
             // checkBox5
             // 
@@ -153,12 +153,12 @@
             label3.TabIndex = 16;
             label3.Text = "Data de geração";
             // 
-            // dateTimePicker1
+            // dtpGeracaoResiduo
             // 
-            dateTimePicker1.Location = new Point(51, 178);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 15;
+            dtpGeracaoResiduo.Location = new Point(51, 178);
+            dtpGeracaoResiduo.Name = "dtpGeracaoResiduo";
+            dtpGeracaoResiduo.Size = new Size(200, 23);
+            dtpGeracaoResiduo.TabIndex = 15;
             // 
             // label2
             // 
@@ -166,18 +166,19 @@
             label2.ForeColor = SystemColors.Control;
             label2.Location = new Point(274, 160);
             label2.Name = "label2";
-            label2.Size = new Size(75, 15);
+            label2.Size = new Size(103, 15);
             label2.TabIndex = 14;
-            label2.Text = "Tipo Resíduo";
+            label2.Text = "Categoria Resíduo";
             // 
-            // cmbBoxTipoResiduo
+            // cmbBoxCategoriaResiduo
             // 
-            cmbBoxTipoResiduo.AutoCompleteCustomSource.AddRange(new string[] { "Sal", "Ácido", "Base", "Óxido" });
-            cmbBoxTipoResiduo.FormattingEnabled = true;
-            cmbBoxTipoResiduo.Location = new Point(274, 178);
-            cmbBoxTipoResiduo.Name = "cmbBoxTipoResiduo";
-            cmbBoxTipoResiduo.Size = new Size(191, 23);
-            cmbBoxTipoResiduo.TabIndex = 13;
+            cmbBoxCategoriaResiduo.AutoCompleteCustomSource.AddRange(new string[] { "Sal", "Ácido", "Base", "Óxido" });
+            cmbBoxCategoriaResiduo.FormattingEnabled = true;
+            cmbBoxCategoriaResiduo.Items.AddRange(new object[] { "Sal", "Ácido", "Base", "óxido" });
+            cmbBoxCategoriaResiduo.Location = new Point(274, 178);
+            cmbBoxCategoriaResiduo.Name = "cmbBoxCategoriaResiduo";
+            cmbBoxCategoriaResiduo.Size = new Size(191, 23);
+            cmbBoxCategoriaResiduo.TabIndex = 13;
             // 
             // textBox3
             // 
@@ -187,13 +188,13 @@
             textBox3.Size = new Size(191, 23);
             textBox3.TabIndex = 10;
             // 
-            // textBox1
+            // txtBoxNomeResiduo
             // 
-            textBox1.Location = new Point(51, 116);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Nome do Resíduo";
-            textBox1.Size = new Size(191, 23);
-            textBox1.TabIndex = 9;
+            txtBoxNomeResiduo.Location = new Point(51, 116);
+            txtBoxNomeResiduo.Name = "txtBoxNomeResiduo";
+            txtBoxNomeResiduo.PlaceholderText = "Nome do Resíduo";
+            txtBoxNomeResiduo.Size = new Size(191, 23);
+            txtBoxNomeResiduo.TabIndex = 9;
             // 
             // label1
             // 
@@ -216,8 +217,8 @@
             Text = "CadastrarResiduo";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
+            gpbClassificacaoResiduo.ResumeLayout(false);
+            gpbClassificacaoResiduo.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -226,13 +227,13 @@
         private Panel panel1;
         private Label label1;
         private TextBox textBox3;
-        private TextBox textBox1;
+        private TextBox txtBoxNomeResiduo;
         private Label label3;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpGeracaoResiduo;
         private Label label2;
-        private ComboBox cmbBoxTipoResiduo;
+        private ComboBox cmbBoxCategoriaResiduo;
         private Button button1;
-        private GroupBox groupBox2;
+        private GroupBox gpbClassificacaoResiduo;
         private CheckBox checkBox5;
         private CheckBox checkBox4;
         private CheckBox checkBox3;

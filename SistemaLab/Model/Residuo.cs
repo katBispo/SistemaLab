@@ -18,12 +18,12 @@ namespace SistemaLab.Model
 
         public Usuario usuario {get; set; }
 
-        public Residuo(int id, string nome, DateTime dataGeracao, StatusResiduo statusResiduo)
+        public Residuo(int id, string nome, DateTime dataGeracao, StatusResiduo statusResiduo, CategoriaResiduo categoriaResiduo)
         {
             this.id = id;
             this.nome = nome;
             this.dataGeracao = dataGeracao;
-            this.statusResiduo = statusResiduo;
+            this.categoriaResiduo = categoriaResiduo;
         }
         public Residuo() { }    
 
