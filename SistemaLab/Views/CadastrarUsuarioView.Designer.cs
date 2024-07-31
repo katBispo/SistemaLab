@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            txtBoxEmail = new TextBox();
+            label3 = new Label();
+            dateTimePicker1 = new DateTimePicker();
             button1 = new Button();
             txtBoxCPF = new TextBox();
             txtBoxMarca = new TextBox();
             txtBoxNomeUsuario = new TextBox();
             label1 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            label3 = new Label();
-            txtBoxEmail = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -57,6 +57,31 @@
             panel1.Size = new Size(800, 450);
             panel1.TabIndex = 1;
             // 
+            // txtBoxEmail
+            // 
+            txtBoxEmail.Location = new Point(79, 248);
+            txtBoxEmail.Name = "txtBoxEmail";
+            txtBoxEmail.PlaceholderText = "Email";
+            txtBoxEmail.Size = new Size(191, 23);
+            txtBoxEmail.TabIndex = 18;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.ForeColor = SystemColors.Control;
+            label3.Location = new Point(293, 170);
+            label3.Name = "label3";
+            label3.Size = new Size(114, 15);
+            label3.TabIndex = 17;
+            label3.Text = "Data de Nascimento";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(293, 188);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 14;
+            // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -67,6 +92,7 @@
             button1.TabIndex = 13;
             button1.Text = "CADASTRAR";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // txtBoxCPF
             // 
@@ -102,31 +128,6 @@
             label1.Size = new Size(205, 29);
             label1.TabIndex = 9;
             label1.Text = "Cadastro de Usuário";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(293, 188);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 14;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(293, 170);
-            label3.Name = "label3";
-            label3.Size = new Size(114, 15);
-            label3.TabIndex = 17;
-            label3.Text = "Data de Nascimento";
-            // 
-            // txtBoxEmail
-            // 
-            txtBoxEmail.Location = new Point(79, 248);
-            txtBoxEmail.Name = "txtBoxEmail";
-            txtBoxEmail.PlaceholderText = "Email";
-            txtBoxEmail.Size = new Size(191, 23);
-            txtBoxEmail.TabIndex = 18;
             // 
             // CadastrarUsuarioView
             // 

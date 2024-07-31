@@ -25,3 +25,5 @@ C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\Si
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.CadastrarEquipamentoView.resources
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.ListarEquipamentosView.resources
 C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.MenuView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.CadastrarUsuarioView.resources
+C:\Users\kateriny\source\repos\SistemaLab\SistemaLab\obj\Debug\net8.0-windows\SistemaLab.Views.ListarUsuario.resources

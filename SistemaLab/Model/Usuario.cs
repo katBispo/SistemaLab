@@ -6,13 +6,13 @@ namespace SistemaLab.Model
     public class Usuario
     {
         public int Id { get;  set; }
-        public string Nome { get; private set; }
-        public string CPF { get; private set; }
-        public DateTime DataNascimento { get; private set; }
-        public string Telefone { get; private set; }
-        public string Email { get; private set; }
-        public List<Reagente> Reagentes { get; private set; }
-        public List<Residuo> Residuos { get; private set; }
+        public string Nome { get;  set; }
+        public string CPF { get;  set; }
+        public DateTime DataNascimento { get;  set; }
+        public string Telefone { get;  set; }
+        public string Email { get;  set; }
+        public List<Reagente> Reagentes { get;  set; }
+        public List<Residuo> Residuos { get;  set; }
 
 
         public Usuario(int id, string nome, string cpf, DateTime dataNascimento, string telefone, string email)
