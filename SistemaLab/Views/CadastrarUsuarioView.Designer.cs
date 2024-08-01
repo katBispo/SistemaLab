@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
             txtBoxEmail = new TextBox();
             label3 = new Label();
@@ -37,6 +38,7 @@
             txtBoxMarca = new TextBox();
             txtBoxNomeUsuario = new TextBox();
             label1 = new Label();
+            toolTip1 = new ToolTip(components);
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -153,5 +155,6 @@
         private DateTimePicker dateTimePicker1;
         private Label label3;
         private TextBox txtBoxEmail;
+        private ToolTip toolTip1;
     }
 }
