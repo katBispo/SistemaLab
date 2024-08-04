@@ -32,9 +32,9 @@
             label2 = new Label();
             toolStrip1 = new ToolStrip();
             toolStripButtonCadastro = new ToolStripButton();
-            toolStripButtonRelatorio = new ToolStripButton();
             button1 = new Button();
             dgvReagente = new DataGridView();
+            toolStripButton1 = new ToolStripButton();
             toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvReagente).BeginInit();
             SuspendLayout();
@@ -64,7 +64,7 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButtonRelatorio });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButton1 });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 37);
@@ -81,16 +81,6 @@
             toolStripButtonCadastro.Size = new Size(34, 34);
             toolStripButtonCadastro.Text = "toolStripButton1";
             toolStripButtonCadastro.Click += toolStripButtonCadastro_Click;
-            // 
-            // toolStripButtonRelatorio
-            // 
-            toolStripButtonRelatorio.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButtonRelatorio.Image = Properties.Resources.documento__1_;
-            toolStripButtonRelatorio.ImageScaling = ToolStripItemImageScaling.None;
-            toolStripButtonRelatorio.ImageTransparentColor = Color.Magenta;
-            toolStripButtonRelatorio.Name = "toolStripButtonRelatorio";
-            toolStripButtonRelatorio.Size = new Size(34, 34);
-            toolStripButtonRelatorio.Text = "toolStripButton1";
             // 
             // button1
             // 
@@ -110,6 +100,16 @@
             dgvReagente.Size = new Size(717, 204);
             dgvReagente.TabIndex = 5;
             dgvReagente.CellContentClick += dgvReagente_CellContentClick;
+            // 
+            // toolStripButton1
+            // 
+            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripButton1.Image = Properties.Resources.arquivo__1_;
+            toolStripButton1.ImageScaling = ToolStripItemImageScaling.None;
+            toolStripButton1.ImageTransparentColor = Color.Magenta;
+            toolStripButton1.Name = "toolStripButton1";
+            toolStripButton1.Size = new Size(34, 34);
+            toolStripButton1.Text = "toolStripButton1";
             // 
             // ListarReagenteView
             // 
@@ -138,8 +138,8 @@
         private Label label2;
         private ToolStrip toolStrip1;
         private ToolStripButton toolStripButtonCadastro;
-        private ToolStripButton toolStripButtonRelatorio;
         private Button button1;
         private DataGridView dgvReagente;
+        private ToolStripButton toolStripButton1;
     }
 }

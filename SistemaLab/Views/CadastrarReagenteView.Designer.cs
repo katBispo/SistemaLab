@@ -268,6 +268,7 @@
             Controls.Add(label1);
             Name = "CadastrarReagenteView";
             Text = "Classificação Reagente";
+            WindowState = FormWindowState.Maximized;
             Load += CadastrarReagenteView_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

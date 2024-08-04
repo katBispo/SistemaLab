@@ -33,6 +33,7 @@
             label1 = new Label();
             toolStrip1 = new ToolStrip();
             toolStripButtonCadastro = new ToolStripButton();
+            toolStripButton1 = new ToolStripButton();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtvResiduo).BeginInit();
             toolStrip1.SuspendLayout();
@@ -73,7 +74,7 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButtonCadastro, toolStripButton1 });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 37);
@@ -90,6 +91,16 @@
             toolStripButtonCadastro.Size = new Size(34, 34);
             toolStripButtonCadastro.Text = "toolStripButton1";
             toolStripButtonCadastro.Click += toolStripButtonCadastro_Click;
+            // 
+            // toolStripButton1
+            // 
+            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripButton1.Image = Properties.Resources.arquivo__1_;
+            toolStripButton1.ImageScaling = ToolStripItemImageScaling.None;
+            toolStripButton1.ImageTransparentColor = Color.Magenta;
+            toolStripButton1.Name = "toolStripButton1";
+            toolStripButton1.Size = new Size(34, 34);
+            toolStripButton1.Text = "toolStripButton1";
             // 
             // ListarResiduoView
             // 
@@ -115,5 +126,6 @@
         private ToolStripButton toolStripButtonCadastro;
         private Label label1;
         private DataGridView dtvResiduo;
+        private ToolStripButton toolStripButton1;
     }
 }

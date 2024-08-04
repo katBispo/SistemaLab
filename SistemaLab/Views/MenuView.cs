@@ -34,7 +34,7 @@ namespace SistemaLab
             CadastrarReagenteView telaCadastrarReagente = new CadastrarReagenteView();
             telaCadastrarReagente.MdiParent = this;
             //telaCadastrarReagente.WindowState = FormWindowState.Maximized;  
-            
+
             telaCadastrarReagente.Show();
         }
 
@@ -79,7 +79,7 @@ namespace SistemaLab
             }
 
             ListarResiduoView telaListarResiduo = new ListarResiduoView();
-            telaListarResiduo.MdiParent= this;
+            telaListarResiduo.MdiParent = this;
             telaListarResiduo.Show();
         }
         // Método para restaurar os controles do formulário pai, caso necessário
@@ -89,6 +89,61 @@ namespace SistemaLab
             {
                 control.Visible = true;
             }
+        }
+
+        private void btnCadastrarReagente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            CadastrarReagenteView cadastrarReagente = new CadastrarReagenteView();
+            cadastrarReagente.Show();
+            cadastrarReagente.FormClosed += (s, args) => this.Show();
+        }
+
+        private void btnListarReagente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ListarReagenteView listarReagente = new ListarReagenteView();
+            listarReagente.Show();
+            listarReagente.FormClosed += (s, args) => this.Show();
+        }
+
+        private void btnCadastrarResiduo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            CadastrarResiduoView cadastrarResiduo = new CadastrarResiduoView();
+            cadastrarResiduo.Show();
+            cadastrarResiduo.FormClosed += (s, args) => this.Show();
+
+        }
+
+        private void btnListarResiduo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ListarResiduoView listarResiduo = new ListarResiduoView();
+            listarResiduo.Show();
+            listarResiduo.FormClosed += (s, args) => this.Show();
+        }
+
+        private void btnCadastrarEquipamento_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            CadastrarEquipamentoView cadastrarEquipamento = new CadastrarEquipamentoView();
+            cadastrarEquipamento.Show();
+            cadastrarEquipamento.FormClosed += (s, args) => this.Show();
+        }
+
+        private void btnListarEquipamento_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ListarEquipamentosView listarEquipamentos = new ListarEquipamentosView();
+            listarEquipamentos.Show();
+            listarEquipamentos.FormClosed += (s, args) => this.Show();
         }
     }
 }

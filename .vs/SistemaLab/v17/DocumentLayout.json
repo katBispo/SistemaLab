@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\listarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\listarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|C:\\Users\\kateriny\\source\\repos\\SistemaLab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\listarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\listarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\listarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|C:\\Users\\kateriny\\source\\repos\\SistemaLab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,94 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListarResiduoView.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarResiduoView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\ListarResiduoView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarResiduoView.cs",
-              "RelativeToolTip": "SistemaLab\\Views\\ListarResiduoView.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA7wB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:56:32.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListarResiduoView.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarResiduoView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\ListarResiduoView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarResiduoView.cs [Projeto]",
-              "RelativeToolTip": "SistemaLab\\Views\\ListarResiduoView.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:56:30.753Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListarReagenteView.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\ListarReagenteView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs",
-              "RelativeToolTip": "SistemaLab\\Views\\ListarReagenteView.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvxkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:56:19.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListarReagenteView.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\ListarReagenteView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\ListarReagenteView.cs [Projeto]",
-              "RelativeToolTip": "SistemaLab\\Views\\ListarReagenteView.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:56:15.585Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CadastrarResiduoView.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarResiduoView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs",
-              "RelativeToolTip": "SistemaLab\\Views\\CadastrarResiduoView.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:55:32.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CadastrarResiduoView.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarResiduoView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs [Projeto]",
-              "RelativeToolTip": "SistemaLab\\Views\\CadastrarResiduoView.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:55:29.033Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CadastrarReagenteView.cs",
-              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
-              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarReagenteView.cs",
-              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
-              "RelativeToolTip": "SistemaLab\\Views\\CadastrarReagenteView.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:30:17.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CadastrarReagenteView.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarReagenteView.cs",
@@ -150,13 +46,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "LoginView.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\LoginView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\LoginView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\LoginView.cs",
+              "RelativeToolTip": "SistemaLab\\Views\\LoginView.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T12:37:20.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\LoginView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\LoginView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\LoginView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\LoginView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T12:37:18.507Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\MenuView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\MenuView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T12:36:42.251Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MenuView.cs",
               "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Views\\MenuView.cs",
               "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\MenuView.cs",
               "RelativeToolTip": "SistemaLab\\Views\\MenuView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAANAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAUwJEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T11:09:35.534Z",
               "EditorCaption": ""

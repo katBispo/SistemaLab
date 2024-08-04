@@ -42,7 +42,6 @@
             btnCadastrarResiduo = new Button();
             btnListarEquipamento = new Button();
             btnCadastrarEquipamento = new Button();
-            label1 = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -122,6 +121,7 @@
             btnCadastrarReagente.TabIndex = 11;
             btnCadastrarReagente.Text = "CADASTRAR REAGENTE";
             btnCadastrarReagente.UseVisualStyleBackColor = false;
+            btnCadastrarReagente.Click += btnCadastrarReagente_Click;
             // 
             // btnListarReagente
             // 
@@ -134,6 +134,7 @@
             btnListarReagente.TabIndex = 12;
             btnListarReagente.Text = "LISTAR REAGENTES";
             btnListarReagente.UseVisualStyleBackColor = false;
+            btnListarReagente.Click += btnListarReagente_Click;
             // 
             // btnListarResiduo
             // 
@@ -146,6 +147,7 @@
             btnListarResiduo.TabIndex = 14;
             btnListarResiduo.Text = "LISTAR RESÍDUOS";
             btnListarResiduo.UseVisualStyleBackColor = false;
+            btnListarResiduo.Click += btnListarResiduo_Click;
             // 
             // btnCadastrarResiduo
             // 
@@ -158,6 +160,7 @@
             btnCadastrarResiduo.TabIndex = 13;
             btnCadastrarResiduo.Text = "CADASTRAR RESÍDUO";
             btnCadastrarResiduo.UseVisualStyleBackColor = false;
+            btnCadastrarResiduo.Click += btnCadastrarResiduo_Click;
             // 
             // btnListarEquipamento
             // 
@@ -170,6 +173,7 @@
             btnListarEquipamento.TabIndex = 16;
             btnListarEquipamento.Text = "LISTAR EQUIPAMENTOS";
             btnListarEquipamento.UseVisualStyleBackColor = false;
+            btnListarEquipamento.Click += btnListarEquipamento_Click;
             // 
             // btnCadastrarEquipamento
             // 
@@ -182,16 +186,7 @@
             btnCadastrarEquipamento.TabIndex = 15;
             btnCadastrarEquipamento.Text = "CADASTRAR EQUIPAMENTO";
             btnCadastrarEquipamento.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(188, 376);
-            label1.Name = "label1";
-            label1.Size = new Size(182, 32);
-            label1.TabIndex = 18;
-            label1.Text = "zzzzzzzzzzzzzz";
+            btnCadastrarEquipamento.Click += btnCadastrarEquipamento_Click;
             // 
             // MenuView
             // 
@@ -199,7 +194,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
             Controls.Add(btnListarEquipamento);
             Controls.Add(btnCadastrarEquipamento);
             Controls.Add(btnListarResiduo);
@@ -237,6 +231,5 @@
         private Button btnCadastrarResiduo;
         private Button btnListarEquipamento;
         private Button btnCadastrarEquipamento;
-        private Label label1;
     }
 }

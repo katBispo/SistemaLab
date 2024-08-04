@@ -83,6 +83,16 @@ namespace SistemaLab.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arquivo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("arquivo__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cadeado_seguro__1_ {
             get {
                 object obj = ResourceManager.GetObject("cadeado_seguro__1_", resourceCulture);
