@@ -23,8 +23,18 @@ namespace SistemaLab
 
         private void cadastrarReagenteToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Oculte os controles do formulário pai, exceto o MenuStrip
+            foreach (Control control in this.Controls)
+            {
+                if (!(control is MdiClient || control is MenuStrip)) // Excluir MdiClient e MenuStrip
+                {
+                    control.Visible = false;
+                }
+            }
             CadastrarReagenteView telaCadastrarReagente = new CadastrarReagenteView();
             telaCadastrarReagente.MdiParent = this;
+            //telaCadastrarReagente.WindowState = FormWindowState.Maximized;  
+            
             telaCadastrarReagente.Show();
         }
 
@@ -47,6 +57,14 @@ namespace SistemaLab
             ListarResiduoView telaListarResiduo = new ListarResiduoView();
             telaListarResiduo.MdiParent= this;
             telaListarResiduo.Show();
+        }
+        // Método para restaurar os controles do formulário pai, caso necessário
+        public void RestoreParentControls()
+        {
+            foreach (Control control in this.Controls)
+            {
+                control.Visible = true;
+            }
         }
     }
 }

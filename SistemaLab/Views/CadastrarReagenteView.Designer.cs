@@ -46,8 +46,10 @@
             button1 = new Button();
             dtpVencimentoReagente = new DateTimePicker();
             label3 = new Label();
+            pictureBox1 = new PictureBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -238,12 +240,21 @@
             label3.TabIndex = 11;
             label3.Text = "Validade";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(17, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(55, 50);
+            pictureBox1.TabIndex = 12;
+            pictureBox1.TabStop = false;
+            // 
             // CadastrarReagenteView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkGreen;
             ClientSize = new Size(702, 574);
+            Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(dtpVencimentoReagente);
             Controls.Add(button1);
@@ -257,10 +268,12 @@
             Controls.Add(label1);
             Name = "CadastrarReagenteView";
             Text = "Classificação Reagente";
+            Load += CadastrarReagenteView_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -285,5 +298,6 @@
         private Button button1;
         private DateTimePicker dtpVencimentoReagente;
         private Label label3;
+        private PictureBox pictureBox1;
     }
 }

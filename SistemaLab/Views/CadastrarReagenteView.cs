@@ -15,9 +15,20 @@ namespace SistemaLab
         public CadastrarReagenteView()
         {
             InitializeComponent();
-           
-        }
+            this.WindowState = FormWindowState.Maximized;
 
+
+        }
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            base.OnFormClosed(e);
+
+            // Quando o formulário filho for fechado, restaura os controles do formulário pai
+            if (this.MdiParent is MenuView mainForm)
+            {
+                mainForm.RestoreParentControls();
+            }
+        }
         private void cmbBoxTipoReagente_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -27,7 +38,7 @@ namespace SistemaLab
 
         {
 
-            ReagenteDTO reagente = new ReagenteDTO(txtNomeReagente.Text,  DateTime.Parse(dtpVencimentoReagente.Text), DateTime.Now, txtFabricante.Text, txtLote.Text);
+            ReagenteDTO reagente = new ReagenteDTO(txtNomeReagente.Text, DateTime.Parse(dtpVencimentoReagente.Text), DateTime.Now, txtFabricante.Text, txtLote.Text);
 
             reagenteController.cadastrarReagente(reagente);
 
@@ -43,6 +54,11 @@ namespace SistemaLab
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CadastrarReagenteView_Load(object sender, EventArgs e)
         {
 
         }
