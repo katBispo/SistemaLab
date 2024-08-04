@@ -1,6 +1,7 @@
 ﻿using SistemaLab.Controller;
 using SistemaLab.DTO;
 using SistemaLab.Model;
+using SistemaLab.Model.enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,17 +34,32 @@ namespace SistemaLab
             }
         }
         private void button1_Click(object sender, EventArgs e)
-        {
-            CategoriaResiduoDTO categoriaResiduoDTO = new CategoriaResiduoDTO(cmbBoxCategoriaResiduo.Text);
-            CategoriaResiduo categoriaResiduo = new CategoriaResiduo(0, categoriaResiduoDTO.categoria);
-            ResiduoDTO residuo = new ResiduoDTO(txtBoxNomeResiduo.Text, DateTime.Parse(dtpGeracaoResiduo.Text), categoriaResiduo);
-
-            residuoController.cadastrarResiduo(residuo);
+        {// Obter o tipo de resíduo da combobox
+            TipoResiduo tipoResiduo;
+            Enum.TryParse(cmbBoxTipoResiduo.SelectedItem.ToString(), out tipoResiduo);
+            cmbBoxTipoResiduo.DataSource = Enum.GetValues(typeof(TipoResiduo));
 
 
-            string mensagem = "Resíduo Cadastrado com sucesso";
-            string titulo = "Atenção";
-            MessageBox.Show(mensagem, titulo);
+
+            // Criar o DTO do resíduo com todas as informações
+            ResiduoDTO residuoDTO = new ResiduoDTO(
+                txtBoxNomeResiduo.Text,
+                DateTime.Parse(dtpGeracaoResiduo.Text),
+                tipoResiduo
+            );
+
+            // Cadastrar o resíduo
+            residuoController.cadastrarResiduo(residuoDTO);
+
+            // Obtém os detalhes do resíduo cadastrado
+            string detalhesResiduo = residuoDTO.ObterDetalhes();
+
+            // Cria a mensagem de confirmação com os detalhes do resíduo
+            string mensagem = $"Resíduo Cadastrado com sucesso!\n\n{detalhesResiduo}";
+            string titulo = "Confirmação";
+
+            // Exibe a mensagem de confirmação
+            MessageBox.Show(mensagem, titulo, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

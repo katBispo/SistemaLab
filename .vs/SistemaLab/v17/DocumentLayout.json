@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|C:\\Users\\kateriny\\source\\repos\\SistemaLab\\sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarreagenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|C:\\Users\\kateriny\\source\\repos\\SistemaLab\\sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\views\\cadastrarresiduoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\controller\\residuocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\controller\\residuocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\dto\\residuodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\dto\\residuodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\model\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\residuo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\model\\enums\\tiporesiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\enums\\tiporesiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|c:\\users\\kateriny\\source\\repos\\sistemalab\\sistemalab\\model\\enums\\caracteristicaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCD6B98-283A-4CFF-A3D2-67ABA896C90E}|SistemaLab\\SistemaLab.csproj|solutionrelative:sistemalab\\model\\enums\\caracteristicaresiduo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +51,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CadastrarResiduoView.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarResiduoView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs",
+              "RelativeToolTip": "SistemaLab\\Views\\CadastrarResiduoView.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:45:04.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastrarResiduoView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarResiduoView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarResiduoView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\CadastrarResiduoView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:47:05.064Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastrarReagenteView.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs [Projeto]",
+              "RelativeToolTip": "SistemaLab\\Views\\CadastrarReagenteView.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:45:23.539Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastrarReagenteView.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "RelativeToolTip": "SistemaLab\\Views\\CadastrarReagenteView.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAASwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:01:06.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResiduoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\DTO\\ResiduoDTO.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\DTO\\ResiduoDTO.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\DTO\\ResiduoDTO.cs",
+              "RelativeToolTip": "SistemaLab\\DTO\\ResiduoDTO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:57:11.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResiduoController.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Controller\\ResiduoController.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Controller\\ResiduoController.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Controller\\ResiduoController.cs",
+              "RelativeToolTip": "SistemaLab\\Controller\\ResiduoController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:59:39.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Residuo.cs",
               "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Residuo.cs",
               "RelativeDocumentMoniker": "SistemaLab\\Model\\Residuo.cs",
               "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Model\\Residuo.cs",
               "RelativeToolTip": "SistemaLab\\Model\\Residuo.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAswBsAAAAgAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA2wBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T16:28:14.374Z",
+              "WhenOpened": "2024-08-04T16:58:17.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TipoResiduo.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\TipoResiduo.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\enums\\TipoResiduo.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\TipoResiduo.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\enums\\TipoResiduo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:02:41.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CaracteristicaResiduo.cs",
+              "DocumentMoniker": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\CaracteristicaResiduo.cs",
+              "RelativeDocumentMoniker": "SistemaLab\\Model\\enums\\CaracteristicaResiduo.cs",
+              "ToolTip": "C:\\Users\\kateriny\\source\\repos\\SistemaLab\\SistemaLab\\Model\\enums\\CaracteristicaResiduo.cs",
+              "RelativeToolTip": "SistemaLab\\Model\\enums\\CaracteristicaResiduo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:58:32.34Z",
               "EditorCaption": ""
             }
           ]

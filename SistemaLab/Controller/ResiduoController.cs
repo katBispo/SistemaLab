@@ -1,11 +1,9 @@
 ﻿using SistemaLab.DAO.DAOImpl;
 using SistemaLab.DTO;
 using SistemaLab.Model;
+using SistemaLab.Model.enums;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SistemaLab.Controller
 {
@@ -13,25 +11,26 @@ namespace SistemaLab.Controller
     {
         private ResiduoDAOImpl dao = new ResiduoDAOImpl();
 
-        public void cadastrarResiduo(ResiduoDTO residuo)
+        public void cadastrarResiduo(ResiduoDTO residuoDTO)
         {
-            Residuo r = new Residuo();
-            r.nome = residuo.nome;
-            r.categoriaResiduo = residuo.categoriaResiduo;
-            r.dataGeracao = residuo.dataGeracao;
-            r.categoriaResiduo = residuo.categoriaResiduo;
-            dao.inserir(r);
+            Residuo residuo = new Residuo
+            {
+                Nome = residuoDTO.Nome,
+                DataGeracao = residuoDTO.DataGeracao,
+                Tipo = residuoDTO.Tipo
+            };
 
+            dao.inserir(residuo);
         }
-        public List<Residuo> listarResiduo()
+
+        public List<Residuo> listarResiduos()
         {
             return dao.buscarTodos();
         }
 
-        public void excluirResiduoe(Residuo residuo)
+        public void excluirResiduo(Residuo residuo)
         {
             dao.remover(residuo);
         }
-
     }
 }

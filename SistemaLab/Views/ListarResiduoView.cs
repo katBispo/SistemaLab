@@ -33,12 +33,12 @@ namespace SistemaLab
         private void ListarResiduoView_Load(object sender, EventArgs e)
         {
             // Carregar dados no DataGridView ao carregar o formulário
-            CarregarDados();
+          //  CarregarDados();
         }
 
-        private void CarregarDados()
+      /* private void CarregarDados()
         {
-            List<Residuo> residuos = residuoController.listarResiduo();
+            List<Residuo> residuos = residuoController.listarResiduos;
 
             var resultado = from res in residuos
                             select new
@@ -53,7 +53,7 @@ namespace SistemaLab
             dtvResiduo.DataSource = resultado.ToList(); dtvResiduo.DataSource = null;
 
 
-        }
+        }*/
 
         private void toolStripButtonCadastro_Click(object sender, EventArgs e)
         {

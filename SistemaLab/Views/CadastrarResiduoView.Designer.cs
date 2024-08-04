@@ -30,32 +30,24 @@
         {
             panel1 = new Panel();
             button1 = new Button();
-            gpbClassificacaoResiduo = new GroupBox();
-            checkBox5 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox1 = new CheckBox();
             label3 = new Label();
             dtpGeracaoResiduo = new DateTimePicker();
             label2 = new Label();
-            cmbBoxCategoriaResiduo = new ComboBox();
+            cmbBoxTipoResiduo = new ComboBox();
             textBox3 = new TextBox();
             txtBoxNomeResiduo = new TextBox();
             label1 = new Label();
             panel1.SuspendLayout();
-            gpbClassificacaoResiduo.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.DarkGreen;
             panel1.Controls.Add(button1);
-            panel1.Controls.Add(gpbClassificacaoResiduo);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(dtpGeracaoResiduo);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(cmbBoxCategoriaResiduo);
+            panel1.Controls.Add(cmbBoxTipoResiduo);
             panel1.Controls.Add(textBox3);
             panel1.Controls.Add(txtBoxNomeResiduo);
             panel1.Controls.Add(label1);
@@ -70,79 +62,13 @@
             // 
             button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(274, 491);
+            button1.Location = new Point(259, 361);
             button1.Name = "button1";
             button1.Size = new Size(156, 62);
             button1.TabIndex = 19;
             button1.Text = "CADASTRAR";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // gpbClassificacaoResiduo
-            // 
-            gpbClassificacaoResiduo.Controls.Add(checkBox5);
-            gpbClassificacaoResiduo.Controls.Add(checkBox4);
-            gpbClassificacaoResiduo.Controls.Add(checkBox3);
-            gpbClassificacaoResiduo.Controls.Add(checkBox2);
-            gpbClassificacaoResiduo.Controls.Add(checkBox1);
-            gpbClassificacaoResiduo.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            gpbClassificacaoResiduo.ForeColor = SystemColors.ControlLight;
-            gpbClassificacaoResiduo.Location = new Point(51, 235);
-            gpbClassificacaoResiduo.Name = "gpbClassificacaoResiduo";
-            gpbClassificacaoResiduo.Size = new Size(228, 177);
-            gpbClassificacaoResiduo.TabIndex = 18;
-            gpbClassificacaoResiduo.TabStop = false;
-            gpbClassificacaoResiduo.Text = "Classificação";
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(18, 146);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(73, 24);
-            checkBox5.TabIndex = 13;
-            checkBox5.Text = "Tóxico";
-            checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(18, 116);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(106, 24);
-            checkBox4.TabIndex = 12;
-            checkBox4.Text = "Patogênico";
-            checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(18, 86);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(81, 24);
-            checkBox3.TabIndex = 11;
-            checkBox3.Text = "Reativo";
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(18, 56);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(102, 24);
-            checkBox2.TabIndex = 10;
-            checkBox2.Text = "Inflamável";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(18, 26);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(95, 24);
-            checkBox1.TabIndex = 9;
-            checkBox1.Text = "Corrosivo";
-            checkBox1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -167,19 +93,19 @@
             label2.ForeColor = SystemColors.Control;
             label2.Location = new Point(274, 160);
             label2.Name = "label2";
-            label2.Size = new Size(103, 15);
+            label2.Size = new Size(75, 15);
             label2.TabIndex = 14;
-            label2.Text = "Categoria Resíduo";
+            label2.Text = "Tipo Resíduo";
             // 
-            // cmbBoxCategoriaResiduo
+            // cmbBoxTipoResiduo
             // 
-            cmbBoxCategoriaResiduo.AutoCompleteCustomSource.AddRange(new string[] { "Sal", "Ácido", "Base", "Óxido" });
-            cmbBoxCategoriaResiduo.FormattingEnabled = true;
-            cmbBoxCategoriaResiduo.Items.AddRange(new object[] { "Sal", "Ácido", "Base", "óxido" });
-            cmbBoxCategoriaResiduo.Location = new Point(274, 178);
-            cmbBoxCategoriaResiduo.Name = "cmbBoxCategoriaResiduo";
-            cmbBoxCategoriaResiduo.Size = new Size(191, 23);
-            cmbBoxCategoriaResiduo.TabIndex = 13;
+            cmbBoxTipoResiduo.AutoCompleteCustomSource.AddRange(new string[] { "Sal", "Ácido", "Base", "Óxido" });
+            cmbBoxTipoResiduo.FormattingEnabled = true;
+            cmbBoxTipoResiduo.Items.AddRange(new object[] { "Sal", "Ácido", "Base", "óxido" });
+            cmbBoxTipoResiduo.Location = new Point(274, 178);
+            cmbBoxTipoResiduo.Name = "cmbBoxTipoResiduo";
+            cmbBoxTipoResiduo.Size = new Size(191, 23);
+            cmbBoxTipoResiduo.TabIndex = 13;
             // 
             // textBox3
             // 
@@ -218,8 +144,6 @@
             Text = "CadastrarResiduo";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            gpbClassificacaoResiduo.ResumeLayout(false);
-            gpbClassificacaoResiduo.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -232,13 +156,7 @@
         private Label label3;
         private DateTimePicker dtpGeracaoResiduo;
         private Label label2;
-        private ComboBox cmbBoxCategoriaResiduo;
+        private ComboBox cmbBoxTipoResiduo;
         private Button button1;
-        private GroupBox gpbClassificacaoResiduo;
-        private CheckBox checkBox5;
-        private CheckBox checkBox4;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
     }
 }

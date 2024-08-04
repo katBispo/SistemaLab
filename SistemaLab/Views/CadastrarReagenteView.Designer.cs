@@ -37,19 +37,19 @@
             groupBox1 = new GroupBox();
             cmbBoxTipoReagente = new ComboBox();
             label2 = new Label();
-            groupBox2 = new GroupBox();
-            chkToxico = new CheckBox();
-            chkPatogenico = new CheckBox();
-            chkReativo = new CheckBox();
-            chkInflamavel = new CheckBox();
-            chkCorrosivo = new CheckBox();
             button1 = new Button();
             dtpVencimentoReagente = new DateTimePicker();
             label3 = new Label();
             pictureBox1 = new PictureBox();
+            chkCorrosivo = new CheckBox();
+            chkInflamavel = new CheckBox();
+            chkReativo = new CheckBox();
+            chkPatogenico = new CheckBox();
+            chkToxico = new CheckBox();
+            groupBox2 = new GroupBox();
             groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -144,73 +144,6 @@
             label2.TabIndex = 8;
             label2.Text = "Tipo Reagente";
             // 
-            // groupBox2
-            // 
-            groupBox2.Controls.Add(chkToxico);
-            groupBox2.Controls.Add(chkPatogenico);
-            groupBox2.Controls.Add(chkReativo);
-            groupBox2.Controls.Add(chkInflamavel);
-            groupBox2.Controls.Add(chkCorrosivo);
-            groupBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = SystemColors.ControlLight;
-            groupBox2.Location = new Point(78, 274);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(228, 177);
-            groupBox2.TabIndex = 7;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Classificação";
-            groupBox2.Enter += groupBox2_Enter;
-            // 
-            // chkToxico
-            // 
-            chkToxico.AutoSize = true;
-            chkToxico.Location = new Point(18, 146);
-            chkToxico.Name = "chkToxico";
-            chkToxico.Size = new Size(73, 24);
-            chkToxico.TabIndex = 13;
-            chkToxico.Text = "Tóxico";
-            chkToxico.UseVisualStyleBackColor = true;
-            // 
-            // chkPatogenico
-            // 
-            chkPatogenico.AutoSize = true;
-            chkPatogenico.Location = new Point(18, 116);
-            chkPatogenico.Name = "chkPatogenico";
-            chkPatogenico.Size = new Size(106, 24);
-            chkPatogenico.TabIndex = 12;
-            chkPatogenico.Text = "Patogênico";
-            chkPatogenico.UseVisualStyleBackColor = true;
-            // 
-            // chkReativo
-            // 
-            chkReativo.AutoSize = true;
-            chkReativo.Location = new Point(18, 86);
-            chkReativo.Name = "chkReativo";
-            chkReativo.Size = new Size(81, 24);
-            chkReativo.TabIndex = 11;
-            chkReativo.Text = "Reativo";
-            chkReativo.UseVisualStyleBackColor = true;
-            // 
-            // chkInflamavel
-            // 
-            chkInflamavel.AutoSize = true;
-            chkInflamavel.Location = new Point(18, 56);
-            chkInflamavel.Name = "chkInflamavel";
-            chkInflamavel.Size = new Size(102, 24);
-            chkInflamavel.TabIndex = 10;
-            chkInflamavel.Text = "Inflamável";
-            chkInflamavel.UseVisualStyleBackColor = true;
-            // 
-            // chkCorrosivo
-            // 
-            chkCorrosivo.AutoSize = true;
-            chkCorrosivo.Location = new Point(18, 26);
-            chkCorrosivo.Name = "chkCorrosivo";
-            chkCorrosivo.Size = new Size(95, 24);
-            chkCorrosivo.TabIndex = 9;
-            chkCorrosivo.Text = "Corrosivo";
-            chkCorrosivo.UseVisualStyleBackColor = true;
-            // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -248,6 +181,73 @@
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
             // 
+            // chkCorrosivo
+            // 
+            chkCorrosivo.AutoSize = true;
+            chkCorrosivo.Location = new Point(18, 26);
+            chkCorrosivo.Name = "chkCorrosivo";
+            chkCorrosivo.Size = new Size(95, 24);
+            chkCorrosivo.TabIndex = 9;
+            chkCorrosivo.Text = "Corrosivo";
+            chkCorrosivo.UseVisualStyleBackColor = true;
+            // 
+            // chkInflamavel
+            // 
+            chkInflamavel.AutoSize = true;
+            chkInflamavel.Location = new Point(18, 56);
+            chkInflamavel.Name = "chkInflamavel";
+            chkInflamavel.Size = new Size(102, 24);
+            chkInflamavel.TabIndex = 10;
+            chkInflamavel.Text = "Inflamável";
+            chkInflamavel.UseVisualStyleBackColor = true;
+            // 
+            // chkReativo
+            // 
+            chkReativo.AutoSize = true;
+            chkReativo.Location = new Point(18, 86);
+            chkReativo.Name = "chkReativo";
+            chkReativo.Size = new Size(81, 24);
+            chkReativo.TabIndex = 11;
+            chkReativo.Text = "Reativo";
+            chkReativo.UseVisualStyleBackColor = true;
+            // 
+            // chkPatogenico
+            // 
+            chkPatogenico.AutoSize = true;
+            chkPatogenico.Location = new Point(18, 116);
+            chkPatogenico.Name = "chkPatogenico";
+            chkPatogenico.Size = new Size(106, 24);
+            chkPatogenico.TabIndex = 12;
+            chkPatogenico.Text = "Patogênico";
+            chkPatogenico.UseVisualStyleBackColor = true;
+            // 
+            // chkToxico
+            // 
+            chkToxico.AutoSize = true;
+            chkToxico.Location = new Point(18, 146);
+            chkToxico.Name = "chkToxico";
+            chkToxico.Size = new Size(73, 24);
+            chkToxico.TabIndex = 13;
+            chkToxico.Text = "Tóxico";
+            chkToxico.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(chkToxico);
+            groupBox2.Controls.Add(chkPatogenico);
+            groupBox2.Controls.Add(chkReativo);
+            groupBox2.Controls.Add(chkInflamavel);
+            groupBox2.Controls.Add(chkCorrosivo);
+            groupBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox2.ForeColor = SystemColors.ControlLight;
+            groupBox2.Location = new Point(78, 274);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(228, 177);
+            groupBox2.TabIndex = 7;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Classificação";
+            groupBox2.Enter += groupBox2_Enter;
+            // 
             // CadastrarReagenteView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -272,9 +272,9 @@
             Load += CadastrarReagenteView_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -290,15 +290,15 @@
         private GroupBox groupBox1;
         private ComboBox cmbBoxTipoReagente;
         private Label label2;
-        private GroupBox groupBox2;
-        private CheckBox chkToxico;
-        private CheckBox chkPatogenico;
-        private CheckBox chkReativo;
-        private CheckBox chkInflamavel;
-        private CheckBox chkCorrosivo;
         private Button button1;
         private DateTimePicker dtpVencimentoReagente;
         private Label label3;
         private PictureBox pictureBox1;
+        private CheckBox chkCorrosivo;
+        private CheckBox chkInflamavel;
+        private CheckBox chkReativo;
+        private CheckBox chkPatogenico;
+        private CheckBox chkToxico;
+        private GroupBox groupBox2;
     }
 }

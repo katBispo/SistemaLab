@@ -10,16 +10,20 @@ namespace SistemaLab.DTO
 {
     public class ResiduoDTO
     {
-        public ResiduoDTO(string nome, DateTime dataGeracao, CategoriaResiduo categoriaResiduo)
+        public ResiduoDTO(string nome, DateTime dataGeracao, TipoResiduo tipo)
         {
-            this.nome = nome;
-            this.dataGeracao = dataGeracao;
-            this.categoriaResiduo = categoriaResiduo;
+            Nome = nome;
+            DataGeracao = dataGeracao;
+            Tipo = tipo;
         }
 
-        public string nome { get; private set; }
-        public DateTime dataGeracao { get; private set; }
+        public string Nome { get; private set; }
+        public DateTime DataGeracao { get; private set; }
+        public TipoResiduo Tipo { get; private set; }
 
-        public CategoriaResiduo categoriaResiduo { get; private set; }
+        public string ObterDetalhes()
+        {
+            return $"Nome: {Nome}\nData de Geração: {DataGeracao.ToShortDateString()}\nTipo: {Tipo}";
+        }
     }
 }

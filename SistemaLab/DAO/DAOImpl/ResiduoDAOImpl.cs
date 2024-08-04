@@ -15,9 +15,9 @@ namespace SistemaLab.DAO.DAOImpl
          
         }
 
-        public Residuo buscarPorId(int id)
+        public Residuo buscarPorId(int Id)
         {
-            Residuo residuo = residuos.Find(r => r.id == id);
+            Residuo residuo = residuos.Find(r => r.Id == Id);
             return residuo;
         }
 
@@ -28,14 +28,14 @@ namespace SistemaLab.DAO.DAOImpl
 
         public Residuo inserir(Residuo residuo)
         {
-            residuo.id = con++;
+            residuo.Id = con++;
             residuos.Add(residuo);
             return residuo;
         }
 
         public void remover(Residuo residuo)
         {
-            residuos.RemoveAll(r => r.id == residuo.id);
+            residuos.RemoveAll(r => r.Id == residuo.Id);
         }
     }
 }
