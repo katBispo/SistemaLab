@@ -40,6 +40,15 @@ namespace SistemaLab
 
         private void cadastrarResíduoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (Control control in this.Controls)
+            {
+                if (!(control is MdiClient || control is MenuStrip)) // Excluir MdiClient e MenuStrip
+                {
+                    control.Visible = false;
+                }
+            }
+
+
             CadastrarResiduoView telaCadastrarResiduo = new CadastrarResiduoView();
             telaCadastrarResiduo.MdiParent = this;
             telaCadastrarResiduo.Show();
@@ -47,6 +56,13 @@ namespace SistemaLab
 
         private void listarReagenteToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (Control control in this.Controls)
+            {
+                if (!(control is MdiClient || control is MenuStrip)) // Excluir MdiClient e MenuStrip
+                {
+                    control.Visible = false;
+                }
+            }
             ListarReagenteView telaListarReagente = new ListarReagenteView();
             telaListarReagente.MdiParent = this;
             telaListarReagente.Show();
@@ -54,6 +70,14 @@ namespace SistemaLab
 
         private void listarResíduoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (Control control in this.Controls)
+            {
+                if (!(control is MdiClient || control is MenuStrip)) // Excluir MdiClient e MenuStrip
+                {
+                    control.Visible = false;
+                }
+            }
+
             ListarResiduoView telaListarResiduo = new ListarResiduoView();
             telaListarResiduo.MdiParent= this;
             telaListarResiduo.Show();

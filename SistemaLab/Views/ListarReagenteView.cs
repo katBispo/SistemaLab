@@ -14,7 +14,16 @@ namespace SistemaLab
         {
             InitializeComponent();
         }
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            base.OnFormClosed(e);
 
+            // Quando o formulário filho for fechado, restaura os controles do formulário pai
+            if (this.MdiParent is MenuView mainForm)
+            {
+                mainForm.RestoreParentControls();
+            }
+        }
         private void ListarReagenteView_Load(object sender, EventArgs e)
         {
             // Carregar dados no DataGridView ao carregar o formulário

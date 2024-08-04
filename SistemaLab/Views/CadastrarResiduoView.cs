@@ -22,12 +22,21 @@ namespace SistemaLab
         {
             InitializeComponent();
         }
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            base.OnFormClosed(e);
 
+            // Quando o formulário filho for fechado, restaura os controles do formulário pai
+            if (this.MdiParent is MenuView mainForm)
+            {
+                mainForm.RestoreParentControls();
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             CategoriaResiduoDTO categoriaResiduoDTO = new CategoriaResiduoDTO(cmbBoxCategoriaResiduo.Text);
             CategoriaResiduo categoriaResiduo = new CategoriaResiduo(0, categoriaResiduoDTO.categoria);
-            ResiduoDTO residuo  = new ResiduoDTO(txtBoxNomeResiduo.Text, DateTime.Parse(dtpGeracaoResiduo.Text), categoriaResiduo );
+            ResiduoDTO residuo = new ResiduoDTO(txtBoxNomeResiduo.Text, DateTime.Parse(dtpGeracaoResiduo.Text), categoriaResiduo);
 
             residuoController.cadastrarResiduo(residuo);
 
@@ -35,6 +44,11 @@ namespace SistemaLab
             string mensagem = "Resíduo Cadastrado com sucesso";
             string titulo = "Atenção";
             MessageBox.Show(mensagem, titulo);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
