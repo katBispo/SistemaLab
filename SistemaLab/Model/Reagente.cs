@@ -1,36 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SistemaLab.Model.enums;
 
 namespace SistemaLab.Model
 {
     public class Reagente
     {
-        public int id { get;  set; }
-        public string nome { get;  set; }
-        public DateTime dataVencimento { get;  set; }
-        public DateTime dataCadastro;
-        public string fabricante { get;  set; }
-        public string lote { get;  set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public DateTime DataVencimento { get; set; }
+        public DateTime DataCadastro { get; set; }
+        public string Fabricante { get; set; }
+        public string Lote { get; set; }
 
-        public Usuario Usuario { get;  set; }
-        public CategoriaReagente categoriaReagente {  get;  set; }
+        public Usuario Usuario { get; set; }
+        public CategoriaReagente CategoriaReagente { get; set; }
 
-        public Reagente(int id, string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote)
+        public Caracteristica Caracteristicas { get; set; }
+        public TipoReagente Tipo { get; set; }
+        public EstadoFisico Estado { get; set; } // Nova propriedade
+
+
+
+        public Reagente(int id, string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote, Caracteristica caracteristicas, TipoReagente tipo, EstadoFisico estado)
         {
-            this.id = id;
-            this.nome = nome;
-            this.dataVencimento = dataVencimento;
-            this.dataCadastro = dataCadastro;
-            this.fabricante = fabricante;
-            this.lote = lote;
+            Id = id;
+            Nome = nome;
+            DataVencimento = dataVencimento;
+            DataCadastro = dataCadastro;
+            Fabricante = fabricante;
+            Lote = lote;
+            Caracteristicas = caracteristicas;
+            Tipo = tipo;
+            Estado = estado;
+
+
         }
+
         public Reagente() { }
-
-
     }
 }

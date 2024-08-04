@@ -19,7 +19,7 @@ namespace SistemaLab.DAO.DAOImpl
         }
         public Reagente buscarPorId(int id)
         {
-            Reagente reagente = reagentes.Find(r => r.id == id);
+            Reagente reagente = reagentes.Find(r => r.Id == id);
             return reagente;
         }
 
@@ -32,7 +32,7 @@ namespace SistemaLab.DAO.DAOImpl
 
         public Reagente inserir(Reagente reagente)
         {
-            reagente.id = con++;
+            reagente.Id = con++;
             reagentes.Add(reagente);
             return reagente!;
         }
@@ -40,7 +40,7 @@ namespace SistemaLab.DAO.DAOImpl
 
         public void remover(Reagente reagente)
         {
-            reagentes.RemoveAll(r =>  r.id == reagente.id);
+            reagentes.RemoveAll(r =>  r.Id == reagente.Id);
         }
     }
 }

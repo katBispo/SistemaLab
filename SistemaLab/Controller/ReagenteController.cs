@@ -1,11 +1,6 @@
 ﻿using SistemaLab.DAO.DAOImpl;
 using SistemaLab.DTO;
 using SistemaLab.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SistemaLab.Controller
 {
@@ -15,16 +10,21 @@ namespace SistemaLab.Controller
 
         public void cadastrarReagente(ReagenteDTO reagente)
         {
-            Reagente r = new Reagente();
-            r.nome = reagente.nome;
-            r.dataVencimento = reagente.dataVencimento;
-            r.fabricante = reagente.fabricante;
-            r.dataCadastro = reagente.dataCadastro;
-            r.lote = reagente.lote;
+            Reagente r = new Reagente
+            {
+                Nome = reagente.Nome,
+                DataVencimento = reagente.DataVencimento,
+                DataCadastro = reagente.DataCadastro,
+                Fabricante = reagente.Fabricante,
+                Lote = reagente.Lote,
+                Caracteristicas = reagente.Caracteristicas,
+                Tipo = reagente.Tipo,
+                Estado = reagente.Estado
+            };
 
             dao.inserir(r);
-
         }
+
         public List<Reagente> listarReagentes()
         {
             return dao.buscarTodos();
@@ -34,6 +34,5 @@ namespace SistemaLab.Controller
         {
             dao.remover(reagente);
         }
-
     }
 }

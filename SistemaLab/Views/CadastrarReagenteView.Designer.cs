@@ -33,16 +33,16 @@
             txtLote = new TextBox();
             txtFabricante = new TextBox();
             radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
+            rbLiquido = new RadioButton();
             groupBox1 = new GroupBox();
             cmbBoxTipoReagente = new ComboBox();
             label2 = new Label();
             groupBox2 = new GroupBox();
-            checkBox5 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox1 = new CheckBox();
+            chkToxico = new CheckBox();
+            chkPatogenico = new CheckBox();
+            chkReativo = new CheckBox();
+            chkInflamavel = new CheckBox();
+            chkCorrosivo = new CheckBox();
             button1 = new Button();
             dtpVencimentoReagente = new DateTimePicker();
             label3 = new Label();
@@ -99,20 +99,20 @@
             radioButton1.Text = "Sólido";
             radioButton1.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbLiquido
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(123, 45);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(79, 24);
-            radioButton2.TabIndex = 5;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Líquido";
-            radioButton2.UseVisualStyleBackColor = true;
+            rbLiquido.AutoSize = true;
+            rbLiquido.Location = new Point(123, 45);
+            rbLiquido.Name = "rbLiquido";
+            rbLiquido.Size = new Size(79, 24);
+            rbLiquido.TabIndex = 5;
+            rbLiquido.TabStop = true;
+            rbLiquido.Text = "Líquido";
+            rbLiquido.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(radioButton2);
+            groupBox1.Controls.Add(rbLiquido);
             groupBox1.Controls.Add(radioButton1);
             groupBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox1.ForeColor = SystemColors.ControlLight;
@@ -146,11 +146,11 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(checkBox5);
-            groupBox2.Controls.Add(checkBox4);
-            groupBox2.Controls.Add(checkBox3);
-            groupBox2.Controls.Add(checkBox2);
-            groupBox2.Controls.Add(checkBox1);
+            groupBox2.Controls.Add(chkToxico);
+            groupBox2.Controls.Add(chkPatogenico);
+            groupBox2.Controls.Add(chkReativo);
+            groupBox2.Controls.Add(chkInflamavel);
+            groupBox2.Controls.Add(chkCorrosivo);
             groupBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox2.ForeColor = SystemColors.ControlLight;
             groupBox2.Location = new Point(78, 274);
@@ -161,55 +161,55 @@
             groupBox2.Text = "Classificação";
             groupBox2.Enter += groupBox2_Enter;
             // 
-            // checkBox5
+            // chkToxico
             // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(18, 146);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(73, 24);
-            checkBox5.TabIndex = 13;
-            checkBox5.Text = "Tóxico";
-            checkBox5.UseVisualStyleBackColor = true;
+            chkToxico.AutoSize = true;
+            chkToxico.Location = new Point(18, 146);
+            chkToxico.Name = "chkToxico";
+            chkToxico.Size = new Size(73, 24);
+            chkToxico.TabIndex = 13;
+            chkToxico.Text = "Tóxico";
+            chkToxico.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // chkPatogenico
             // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(18, 116);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(106, 24);
-            checkBox4.TabIndex = 12;
-            checkBox4.Text = "Patogênico";
-            checkBox4.UseVisualStyleBackColor = true;
+            chkPatogenico.AutoSize = true;
+            chkPatogenico.Location = new Point(18, 116);
+            chkPatogenico.Name = "chkPatogenico";
+            chkPatogenico.Size = new Size(106, 24);
+            chkPatogenico.TabIndex = 12;
+            chkPatogenico.Text = "Patogênico";
+            chkPatogenico.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // chkReativo
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(18, 86);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(81, 24);
-            checkBox3.TabIndex = 11;
-            checkBox3.Text = "Reativo";
-            checkBox3.UseVisualStyleBackColor = true;
+            chkReativo.AutoSize = true;
+            chkReativo.Location = new Point(18, 86);
+            chkReativo.Name = "chkReativo";
+            chkReativo.Size = new Size(81, 24);
+            chkReativo.TabIndex = 11;
+            chkReativo.Text = "Reativo";
+            chkReativo.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // chkInflamavel
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(18, 56);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(102, 24);
-            checkBox2.TabIndex = 10;
-            checkBox2.Text = "Inflamável";
-            checkBox2.UseVisualStyleBackColor = true;
+            chkInflamavel.AutoSize = true;
+            chkInflamavel.Location = new Point(18, 56);
+            chkInflamavel.Name = "chkInflamavel";
+            chkInflamavel.Size = new Size(102, 24);
+            chkInflamavel.TabIndex = 10;
+            chkInflamavel.Text = "Inflamável";
+            chkInflamavel.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // chkCorrosivo
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(18, 26);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(95, 24);
-            checkBox1.TabIndex = 9;
-            checkBox1.Text = "Corrosivo";
-            checkBox1.UseVisualStyleBackColor = true;
+            chkCorrosivo.AutoSize = true;
+            chkCorrosivo.Location = new Point(18, 26);
+            chkCorrosivo.Name = "chkCorrosivo";
+            chkCorrosivo.Size = new Size(95, 24);
+            chkCorrosivo.TabIndex = 9;
+            chkCorrosivo.Text = "Corrosivo";
+            chkCorrosivo.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -286,16 +286,16 @@
         private TextBox txtLote;
         private TextBox txtFabricante;
         private RadioButton radioButton1;
-        private RadioButton radioButton2;
+        private RadioButton rbLiquido;
         private GroupBox groupBox1;
         private ComboBox cmbBoxTipoReagente;
         private Label label2;
         private GroupBox groupBox2;
-        private CheckBox checkBox5;
-        private CheckBox checkBox4;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
+        private CheckBox chkToxico;
+        private CheckBox chkPatogenico;
+        private CheckBox chkReativo;
+        private CheckBox chkInflamavel;
+        private CheckBox chkCorrosivo;
         private Button button1;
         private DateTimePicker dtpVencimentoReagente;
         private Label label3;

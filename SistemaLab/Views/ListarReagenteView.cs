@@ -27,15 +27,15 @@ namespace SistemaLab
         private void ListarReagenteView_Load(object sender, EventArgs e)
         {
             // Carregar dados no DataGridView ao carregar o formulário
-            CarregarDados();
+            //CarregarDados();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CarregarDados();
+           // CarregarDados();
         }
 
-        private void CarregarDados()
+      /*  private void CarregarDados()
         {
 
             List<Reagente> reagentes = reagenteController.listarReagentes();
@@ -51,7 +51,7 @@ namespace SistemaLab
             dgvReagente.DataSource = null;
 
             dgvReagente.DataSource = lista;
-        }
+        }*/
 
         private void dgvReagente_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

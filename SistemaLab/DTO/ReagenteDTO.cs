@@ -1,29 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SistemaLab.Model.enums;
 
 namespace SistemaLab.DTO
 {
     public class ReagenteDTO
     {
-        public string nome { get; private set; }
-        public DateTime dataVencimento { get; private set; }
-        public DateTime dataCadastro {  get; private set; }
+        public string Nome { get; private set; }
+        public DateTime DataVencimento { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public string Fabricante { get; private set; }
+        public string Lote { get; private set; }
+        public Caracteristica Caracteristicas { get; private set; }
+        public TipoReagente Tipo { get; private set; }
+        public EstadoFisico Estado { get; private set; }
 
-        public ReagenteDTO(string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote)
+        public ReagenteDTO(string nome, DateTime dataVencimento, DateTime dataCadastro, string fabricante, string lote, Caracteristica caracteristicas, TipoReagente tipo, EstadoFisico estado)
         {
-            this.nome = nome;
-            this.dataVencimento = dataVencimento;
-            this.dataCadastro = dataCadastro;
-            this.fabricante = fabricante;
-            this.lote = lote;
+            Nome = nome;
+            DataVencimento = dataVencimento;
+            DataCadastro = dataCadastro;
+            Fabricante = fabricante;
+            Lote = lote;
+            Caracteristicas = caracteristicas;
+            Tipo = tipo;
+            Estado = estado;
         }
 
-        public string fabricante { get; private set; }
-        public string lote { get; private set; }
-
-        
+        public string ObterDetalhes()
+        {
+            return $"Nome: {Nome}\nData de Vencimento: {DataVencimento.ToShortDateString()}\nData de Cadastro: {DataCadastro.ToShortDateString()}\nFabricante: {Fabricante}\nLote: {Lote}\nCaracterísticas: {Caracteristicas}\nTipo: {Tipo}\nEstado: {Estado}";
+        }
     }
 }
